@@ -71,7 +71,7 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
-      - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend
+      - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend,DB_PASSWORD=Postgres.2424
 
 options:
   logging: CLOUD_LOGGING_ONLY

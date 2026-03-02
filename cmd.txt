@@ -5,3 +5,9 @@ api.mouhamadougaye.com
 Cloud Run (Spring Boot)
   ↓
 Cloud SQL (PostgreSQL)
+
+
+
+gcloud sql users set-password bloguser \
+  --instance=blog-db \
+  --password=NewStrongPassword123
