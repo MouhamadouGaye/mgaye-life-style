@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: blog
+
+  datasource:
+    url: jdbc:postgresql://localhost/blog?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=money-transfer-frontend:us-central1:blog-db
+    username: bloguser
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: ${PORT:8080}
+  address: 0.0.0.0
