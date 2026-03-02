@@ -1,6 +1,50 @@
+# steps:
+#   - name: 'gcr.io/cloud-builders/mvn'
+#     args: ['clean', 'package']
+
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: [
+#       'build',
+#       '-t',
+#       'us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app',
+#       '.'
+#     ]
+
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: [
+#       'push',
+#       'us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app'
+#     ]
+
+#   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#     entrypoint: gcloud
+#     args:
+#       - run
+#       - deploy
+#       - blog-backend
+#       - --image=us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
+#       - --region=us-central1
+#       - --platform=managed
+#       - --allow-unauthenticated
+#       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
+#       # - --set-env-vars=SPRING_PROFILES_ACTIVE=prod
+#       - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend
+
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+  
+# images:
+#   - us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
+
+### ERROR: build step 0 "gcr.io/cloud-builders/mvn" failed: step exited with non-zero status: 1
+
+
+
+
 steps:
-  - name: 'gcr.io/cloud-builders/mvn'
-    args: ['clean', 'package']
+  - name: 'maven:3.9.6-eclipse-temurin-21'
+    entrypoint: mvn
+    args: ['clean', 'package', '-DskipTests']
 
   - name: 'gcr.io/cloud-builders/docker'
     args: [
@@ -27,12 +71,10 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
-      # - --set-env-vars=SPRING_PROFILES_ACTIVE=prod
       - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend
 
 options:
   logging: CLOUD_LOGGING_ONLY
-  
+
 images:
   - us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
-
