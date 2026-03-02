@@ -27,7 +27,8 @@ steps:
       - --platform=managed
       - --allow-unauthenticated
       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
-      - --set-env-vars=SPRING_PROFILES_ACTIVE=prod
+      # - --set-env-vars=SPRING_PROFILES_ACTIVE=prod
+      - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend
 
 images:
   - us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app

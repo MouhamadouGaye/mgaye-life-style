@@ -1,0 +1,15 @@
+
+spring:
+  port: ${PORT:8080}
+  application:
+    name: blog
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blog
+    username: bloguser
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

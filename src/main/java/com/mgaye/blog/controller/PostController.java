@@ -1,5 +1,9 @@
 package com.mgaye.blog.controller;
 
+import com.google.cloud.storage.BlobId;
+import com.google.cloud.storage.BlobInfo;
+import com.google.cloud.storage.Storage;
+import com.google.cloud.storage.StorageOptions;
 import com.mgaye.blog.model.Post;
 import com.mgaye.blog.repository.PostRepository;
 import org.springframework.web.bind.annotation.*;
@@ -24,22 +28,48 @@ public class PostController {
         return repository.findAll();
     }
 
+    // @PostMapping
+    // public Post create(
+    // @RequestParam String title,
+    // @RequestParam String content,
+    // @RequestParam MultipartFile image) throws IOException {
+
+    // String uploadDir = "uploads/";
+    // new File(uploadDir).mkdirs();
+
+    // String filePath = uploadDir + image.getOriginalFilename();
+    // image.transferTo(new File(filePath));
+
+    // Post post = new Post();
+    // post.setTitle(title);
+    // post.setContent(content);
+    // post.setImageUrl(filePath);
+
+    // return repository.save(post);
+    // }
+
     @PostMapping
     public Post create(
             @RequestParam String title,
             @RequestParam String content,
             @RequestParam MultipartFile image) throws IOException {
 
-        String uploadDir = "uploads/";
-        new File(uploadDir).mkdirs();
+        Storage storage = StorageOptions.getDefaultInstance().getService();
 
-        String filePath = uploadDir + image.getOriginalFilename();
-        image.transferTo(new File(filePath));
+        String bucketName = System.getenv("BUCKET_NAME");
+        String fileName = image.getOriginalFilename();
+
+        BlobId blobId = BlobId.of(bucketName, fileName);
+        BlobInfo blobInfo = BlobInfo.newBuilder(blobId).build();
+
+        storage.create(blobInfo, image.getBytes());
+
+        String imageUrl = "https://storage.googleapis.com/" + bucketName + "/" + fileName;
 
         Post post = new Post();
         post.setTitle(title);
         post.setContent(content);
-        post.setImageUrl(filePath);
+        post.setImageUrl(imageUrl);
 
         return repository.save(post);
     }

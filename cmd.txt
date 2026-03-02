@@ -1,0 +1,7 @@
+User
+  ↓
+api.mouhamadougaye.com
+  ↓
+Cloud Run (Spring Boot)
+  ↓
+Cloud SQL (PostgreSQL)
