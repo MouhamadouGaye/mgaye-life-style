@@ -41,6 +41,45 @@
 
 
 
+# steps:
+#   - name: 'maven:3.9.6-eclipse-temurin-21'
+#     entrypoint: mvn
+#     args: ['clean', 'package', '-DskipTests']
+
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: [
+#       'build',
+#       '-t',
+#       'us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app',
+#       '.'
+#     ]
+
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: [
+#       'push',
+#       'us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app'
+#     ]
+
+#   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+#     entrypoint: gcloud
+#     args:
+#       - run
+#       - deploy
+#       - blog-backend
+#       - --image=us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
+#       - --region=us-central1
+#       - --platform=managed
+#       - --allow-unauthenticated
+#       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
+#       - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend,DB_PASSWORD=Postgres.2424
+
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+
+# images:
+#   - us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
+
+
 steps:
   - name: 'maven:3.9.6-eclipse-temurin-21'
     entrypoint: mvn
@@ -68,11 +107,12 @@ steps:
       - blog-backend
       - --image=us-central1-docker.pkg.dev/$PROJECT_ID/blog-repo/blog-app
       - --region=us-central1
-      - --platform=managed
       - --allow-unauthenticated
       - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
       - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend,DB_PASSWORD=Postgres.2424
-
+      - --memory=512Mi
+      - --timeout=300
+      
 options:
   logging: CLOUD_LOGGING_ONLY
 

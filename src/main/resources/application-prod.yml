@@ -1,9 +1,30 @@
+# spring:
+#   application:
+#     name: blog
+
+#   datasource:
+#     url: jdbc:postgresql:///blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
+#     username: bloguser
+#     password: ${DB_PASSWORD}
+
+#   jpa:
+#     hibernate:
+#       ddl-auto: validate
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+# server:
+#   port: ${PORT:8080}
+#   address: 0.0.0.0
+
 spring:
   application:
     name: blog
 
   datasource:
-    # url: jdbc:postgresql://localhost/blog?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=money-transfer-frontend:us-central1:blog-db
+    # url: jdbc:postgresql://localhost:5432/blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
     url: jdbc:postgresql:///blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
     username: bloguser
     password: ${DB_PASSWORD}
@@ -11,12 +32,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
 
-  # autoconfigure:
-  #   exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
 
 server:
   port: ${PORT:8080}
