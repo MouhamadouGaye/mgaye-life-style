@@ -3,7 +3,8 @@ spring:
     name: blog
 
   datasource:
-    url: jdbc:postgresql://localhost/blog?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=money-transfer-frontend:us-central1:blog-db
+    # url: jdbc:postgresql://localhost/blog?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=money-transfer-frontend:us-central1:blog-db
+    url: jdbc:postgresql:///blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
     username: bloguser
     password: ${DB_PASSWORD}
 
