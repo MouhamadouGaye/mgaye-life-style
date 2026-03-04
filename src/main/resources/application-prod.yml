@@ -27,7 +27,7 @@ spring:
     # url: jdbc:postgresql://localhost:5432/blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
     url: jdbc:postgresql:///blog?cloudSqlInstance=money-transfer-frontend:us-central1:blog-db&socketFactory=com.google.cloud.sql.postgres.SocketFactory
     username: bloguser
-    password: ${DB_PASSWORD}
+    password: Postgres.2424
 
   jpa:
     hibernate:
