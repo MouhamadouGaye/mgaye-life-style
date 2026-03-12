@@ -23,6 +23,11 @@ public class PostController {
         this.repository = repository;
     }
 
+    @GetMapping("/")
+    public String hello() {
+        return "Hello, World!";
+    }
+
     @GetMapping
     public List<Post> getAll() {
         return repository.findAll();
@@ -57,7 +62,6 @@ public class PostController {
         Storage storage = StorageOptions.getDefaultInstance().getService();
 
         String bucketName = System.getenv("BUCKET_NAME");
-        System.out.println("||||||||||||||||||||||||||Bucket: " + bucketName);
         String fileName = image.getOriginalFilename();
 
         BlobId blobId = BlobId.of(bucketName, fileName);
