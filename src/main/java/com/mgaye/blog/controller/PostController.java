@@ -57,6 +57,7 @@ public class PostController {
         Storage storage = StorageOptions.getDefaultInstance().getService();
 
         String bucketName = System.getenv("BUCKET_NAME");
+        System.out.println("||||||||||||||||||||||||||Bucket: " + bucketName);
         String fileName = image.getOriginalFilename();
 
         BlobId blobId = BlobId.of(bucketName, fileName);
