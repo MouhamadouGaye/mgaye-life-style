@@ -14,7 +14,6 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/posts")
 public class PostController {
 
     private final PostRepository repository;
@@ -28,7 +27,7 @@ public class PostController {
         return "Hello, World!";
     }
 
-    @GetMapping
+    @GetMapping("/posts")
     public List<Post> getAll() {
         return repository.findAll();
     }
@@ -53,7 +52,7 @@ public class PostController {
     // return repository.save(post);
     // }
 
-    @PostMapping
+    @PostMapping("/posts")
     public Post create(
             @RequestParam String title,
             @RequestParam String content,
