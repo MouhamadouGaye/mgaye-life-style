@@ -11,3 +11,26 @@ Cloud SQL (PostgreSQL)
 gcloud sql users set-password bloguser \
   --instance=blog-db \
   --password=NewStrongPassword123
+
+
+
+
+# Pour créer un backet serve frontend: 
+gsutil mb -l us-central1 gs://blog-frontend-site
+
+# Rendre les fichiers publics
+gsutil iam ch allUsers:objectViewer gs://blog-frontend-site
+
+gsutil web set -m index.html -e index.html gs://blog-frontend-site
+
+
+
+# Une fois ton pipeline exécuté, ton frontend sera accessible ici :
+  https://storage.googleapis.com/blog-frontend-site/index.html ou http://blog-frontend-site.storage.googleapis.com
+
+## Version moderne :
+gcloud storage buckets create gs://blog-frontend-site --location=us-central1
+
+gcloud storage buckets add-iam-policy-binding gs://blog-frontend-site \
+--member=allUsers \
+--role=roles/storage.objectViewer
