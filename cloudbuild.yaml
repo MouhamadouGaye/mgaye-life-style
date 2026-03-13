@@ -179,7 +179,7 @@ steps:
     - --region=us-central1
     - --allow-unauthenticated
     - --add-cloudsql-instances=money-transfer-frontend:us-central1:blog-db
-    - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend,DB_PASSWORD=$DB_PASSWORD
+    - --set-env-vars=SPRING_PROFILES_ACTIVE=prod,BUCKET_NAME=blog-images-money-transfer-frontend,DB_PASSWORD=Postgres.2424
     - --memory=512Mi
     - --timeout=300
 
