@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://blog-frontend-site.storage.googleapis.com")
 public class PostController {
 
     private final PostRepository repository;
@@ -66,7 +66,10 @@ public class PostController {
         String fileName = UUID.randomUUID() + "-" + image.getOriginalFilename();
 
         BlobId blobId = BlobId.of(bucketName, fileName);
-        BlobInfo blobInfo = BlobInfo.newBuilder(blobId).build();
+        // BlobInfo blobInfo = BlobInfo.newBuilder(blobId).build();
+        BlobInfo blobInfo = BlobInfo.newBuilder(blobId)
+                .setContentType(image.getContentType())
+                .build();
 
         storage.create(blobInfo, image.getBytes());
 
