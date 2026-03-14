@@ -37,7 +37,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-                "http://blog-frontend-site.storage.googleapis.com"));
+                "http://blog-frontend-site.storage.googleapis.com",
+                "http://localhost:5173"));
 
         configuration.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS"));
