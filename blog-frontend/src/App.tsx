@@ -7,7 +7,7 @@ import PostPage from "./components/PostPage";
 function App() {
   const [shown, setShown] = useState<boolean>(false);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="blog-frontend-site">
       <h1>Blog</h1>
 
       <button onClick={() => setShown(!shown)}> Ajouter une publication</button>
