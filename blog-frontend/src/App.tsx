@@ -10,7 +10,7 @@ function App() {
 
       <button onClick={() => setShown(!shown)}> Ajouter une publication</button>
 
-      {shown && <PostForm setShown={setShown} shown={shown} />}
+      {shown && <PostForm setShown={setShown} />}
 
       <PostList />
     </div>
