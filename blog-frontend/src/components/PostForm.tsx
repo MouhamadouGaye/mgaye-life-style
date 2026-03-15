@@ -2,7 +2,12 @@ import { useState } from "react";
 import { createPost } from "../api/api";
 import "./PostForm.css";
 
-export default function PostForm() {
+type Props = {
+  shown: boolean;
+  setShown: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+const PostForm: React.FC<Props> = ({ setShown, shown }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [image, setImage] = useState<File | null>(null);
@@ -15,33 +20,55 @@ export default function PostForm() {
     await createPost(title, content, image);
 
     alert("Post created");
+
+    setShown(false); // ferme le formulaire
+
+    // reset du form (bonne pratique)
+    setTitle("");
+    setContent("");
+    setImage(null);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="form">
-      <input
-        placeholder="Title"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-        className="form-input"
-      />
+    <div className="form-container">
+      <form onSubmit={handleSubmit} className="form">
+        <button
+          type="button"
+          className="close-button"
+          onClick={() => setShown(false)}
+        >
+          X
+        </button>
 
-      <textarea
-        placeholder="Content"
-        value={content}
-        onChange={(e) => setContent(e.target.value)}
-        className="text-area"
-      />
+        <input
+          placeholder="Title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          className="form-input"
+        />
 
-      <input
-        type="file"
-        onChange={(e) => setImage(e.target.files?.[0] || null)}
-        className="form-input"
-      />
+        <textarea
+          placeholder="Content"
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+          className="text-area"
+        />
 
-      <button className="form-button" type="submit">
-        Create Post
-      </button>
-    </form>
+        <input
+          type="file"
+          onChange={(e) => setImage(e.target.files?.[0] || null)}
+          className="form-input"
+        />
+
+        <button
+          className="form-button"
+          type="submit"
+          onClick={() => setShown(false)}
+        >
+          Create Post
+        </button>
+      </form>
+    </div>
   );
-}
+};
+export default PostForm;
