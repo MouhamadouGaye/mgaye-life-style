@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostPage from "./components/PostPage";
 
 function App() {
