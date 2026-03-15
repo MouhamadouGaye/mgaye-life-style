@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { createPost } from "../api/api";
+import "./PostForm.css";
 
 export default function PostForm() {
   const [title, setTitle] = useState("");
@@ -17,25 +18,30 @@ export default function PostForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form">
       <input
         placeholder="Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
+        className="form-input"
       />
 
       <textarea
         placeholder="Content"
         value={content}
         onChange={(e) => setContent(e.target.value)}
+        className="text-area"
       />
 
       <input
         type="file"
         onChange={(e) => setImage(e.target.files?.[0] || null)}
+        className="form-input"
       />
 
-      <button type="submit">Create Post</button>
+      <button className="form-button" type="submit">
+        Create Post
+      </button>
     </form>
   );
 }
