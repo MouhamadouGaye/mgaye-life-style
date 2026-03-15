@@ -3,11 +3,10 @@ import { createPost } from "../api/api";
 import "./PostForm.css";
 
 type Props = {
-  shown: boolean;
   setShown: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const PostForm: React.FC<Props> = ({ setShown, shown }) => {
+const PostForm: React.FC<Props> = ({ setShown }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [image, setImage] = useState<File | null>(null);
