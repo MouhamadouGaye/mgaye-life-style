@@ -5,6 +5,11 @@ export const getPosts = async () => {
   return res.json();
 };
 
+export const getPost = async (id: string | undefined) => {
+  const res = await fetch(`${API_URL}/posts/${id}`);
+  return res.json();
+};
+
 export const createPost = async (
   title: string,
   content: string,

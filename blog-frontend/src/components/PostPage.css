@@ -1,0 +1,25 @@
+.article-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.article-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.article-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.article-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+}

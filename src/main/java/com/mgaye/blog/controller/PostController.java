@@ -34,6 +34,11 @@ public class PostController {
         return repository.findAll();
     }
 
+    @GetMapping("/posts/{id}")
+    public Post getPost(@PathVariable Long id) {
+        return repository.findById(id).orElseThrow();
+    }
+
     // @PostMapping
     // public Post create(
     // @RequestParam String title,

@@ -15,13 +15,16 @@ gcloud sql users set-password bloguser \
 
 
 
-# Pour créer un backet serve frontend: 
+# Pour créer un bucket serve frontend: 
 gsutil mb -l us-central1 gs://blog-frontend-site
 
 # Rendre les fichiers publics
 gsutil iam ch allUsers:objectViewer gs://blog-frontend-site
+gsutil iam ch allUsers:objectViewer gs://blog-images-money-transfer-frontend
+
 
 gsutil web set -m index.html -e index.html gs://blog-frontend-site
+
 
 
 
