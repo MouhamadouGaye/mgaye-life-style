@@ -15,7 +15,7 @@ function App() {
       {shown && <PostForm setShown={setShown} />}
 
       <Routes>
-        <Route path="/" element={<PostList />}></Route>
+        <Route path="/index.html" element={<PostList />}></Route>
         <Route path="/posts/:id" element={<PostPage />}></Route>
       </Routes>
     </BrowserRouter>
