@@ -22,17 +22,6 @@ export default function PostList() {
       <h1 className="title">My Blog</h1>
 
       <div className="posts-grid">
-        {posts.map((post) => (
-          <div className="post-card" key={post.id}>
-            <img src={post.imageUrl} alt={post.title} />
-
-            <div className="post-content">
-              <h3>{post.title}</h3>
-              <p>{post.content}</p>
-            </div>
-          </div>
-        ))}
-
         {posts &&
           posts.map((post: any) => (
             <Link to={`/post/${post.id}`} className="post-card" key={post.id}>
