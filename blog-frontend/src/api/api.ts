@@ -1,4 +1,4 @@
-const API_URL = "https://blog-backend-429108478989.us-central1.run.app";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export const getPosts = async () => {
   const res = await fetch(`${API_URL}/posts`);
