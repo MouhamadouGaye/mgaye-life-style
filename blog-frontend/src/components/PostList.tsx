@@ -24,7 +24,7 @@ export default function PostList() {
       <div className="posts-grid">
         {posts &&
           posts.map((post: any) => (
-            <Link to={`/post/${post.id}`} className="post-card" key={post.id}>
+            <Link to={`/posts/${post.id}`} className="post-card" key={post.id}>
               <img src={post.imageUrl} />
 
               <div className="post-content">
