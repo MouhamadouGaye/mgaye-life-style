@@ -39,11 +39,16 @@ export const updatePost = async (
   id: number,
   title: string,
   content: string,
+  image: File | null,
 ) => {
   const formData = new FormData();
 
   formData.append("title", title);
   formData.append("content", content);
+
+  if (image) {
+    formData.append("image", image);
+  }
 
   const res = await fetch(`${API_URL}/posts/${id}`, {
     method: "PUT",

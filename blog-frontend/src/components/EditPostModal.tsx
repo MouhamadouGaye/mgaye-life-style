@@ -11,11 +11,21 @@ type Props = {
 export default function EditPostModal({ post, onClose, onUpdated }: Props) {
   const [title, setTitle] = useState(post.title);
   const [content, setContent] = useState(post.content);
+  const [image, setImage] = useState<File | null>(null);
+
+  //   const handleSubmit = async (e: React.FormEvent) => {
+  //     e.preventDefault();
+
+  //     const updated = await updatePost(post.id, title, content);
+
+  //     onUpdated(updated);
+  //     onClose();
+  //   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const updated = await updatePost(post.id, title, content);
+    const updated = await updatePost(post.id, title, content, image);
 
     onUpdated(updated);
     onClose();
@@ -37,6 +47,18 @@ export default function EditPostModal({ post, onClose, onUpdated }: Props) {
             value={content}
             onChange={(e) => setContent(e.target.value)}
           />
+
+          <input
+            type="file"
+            onChange={(e) => setImage(e.target.files?.[0] || null)}
+          />
+
+          {image && (
+            <img
+              src={URL.createObjectURL(image)}
+              style={{ width: "100%", borderRadius: "10px" }}
+            />
+          )}
 
           <button type="submit">Save</button>
         </form>
