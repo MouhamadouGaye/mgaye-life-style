@@ -13,15 +13,6 @@ export default function EditPostModal({ post, onClose, onUpdated }: Props) {
   const [content, setContent] = useState(post.content);
   const [image, setImage] = useState<File | null>(null);
 
-  //   const handleSubmit = async (e: React.FormEvent) => {
-  //     e.preventDefault();
-
-  //     const updated = await updatePost(post.id, title, content);
-
-  //     onUpdated(updated);
-  //     onClose();
-  //   };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
