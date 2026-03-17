@@ -28,3 +28,39 @@ export const createPost = async (
 
   return res.json();
 };
+
+export const deletePost = async (id: number) => {
+  await fetch(`${API_URL}/posts/${id}`, {
+    method: "DELETE",
+  });
+};
+
+export const updatePost = async (
+  id: number,
+  title: string,
+  content: string,
+) => {
+  const formData = new FormData();
+
+  formData.append("title", title);
+  formData.append("content", content);
+
+  const res = await fetch(`${API_URL}/posts/${id}`, {
+    method: "PUT",
+    body: formData,
+  });
+
+  return res.json();
+};
+
+export const patchPost = async (id: number, updates: any) => {
+  const res = await fetch(`${API_URL}/posts/${id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(updates),
+  });
+
+  return res.json();
+};

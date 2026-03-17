@@ -39,26 +39,6 @@ public class PostController {
         return repository.findById(id).orElseThrow();
     }
 
-    // @PostMapping
-    // public Post create(
-    // @RequestParam String title,
-    // @RequestParam String content,
-    // @RequestParam MultipartFile image) throws IOException {
-
-    // String uploadDir = "uploads/";
-    // new File(uploadDir).mkdirs();
-
-    // String filePath = uploadDir + image.getOriginalFilename();
-    // image.transferTo(new File(filePath));
-
-    // Post post = new Post();
-    // post.setTitle(title);
-    // post.setContent(content);
-    // post.setImageUrl(filePath);
-
-    // return repository.save(post);
-    // }
-
     @PostMapping("/posts")
     public Post create(
             @RequestParam String title,
@@ -84,6 +64,54 @@ public class PostController {
         post.setTitle(title);
         post.setContent(content);
         post.setImageUrl(imageUrl);
+
+        return repository.save(post);
+    }
+
+    // @DeleteMapping("/posts/{id}")
+    // public void deletePost(@PathVariable Long id) {
+    // repository.deleteById(id);
+    // }
+    @DeleteMapping("/posts/{id}")
+    public ResponseEntity<Void> deletePost(@PathVariable Long id) {
+
+        if (!repository.existsById(id)) {
+            return ResponseEntity.notFound().build();
+        }
+
+        repository.deleteById(id);
+
+        return ResponseEntity.noContent().build();
+    }
+
+    @PutMapping("/posts/{id}")
+    public Post updatePost(
+            @PathVariable Long id,
+            @RequestParam String title,
+            @RequestParam String content) {
+
+        Post post = repository.findById(id).orElseThrow();
+
+        post.setTitle(title);
+        post.setContent(content);
+
+        return repository.save(post);
+    }
+
+    @PatchMapping("/posts/{id}")
+    public Post patchPost(
+            @PathVariable Long id,
+            @RequestBody Map<String, Object> updates) {
+
+        Post post = repository.findById(id).orElseThrow();
+
+        if (updates.containsKey("title")) {
+            post.setTitle((String) updates.get("title"));
+        }
+
+        if (updates.containsKey("content")) {
+            post.setContent((String) updates.get("content"));
+        }
 
         return repository.save(post);
     }
