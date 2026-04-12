@@ -3,6 +3,7 @@ import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostPage from "./components/PostPage";
+import Cni from "./components/demand/Cni";
 
 function App() {
   const [shown, setShown] = useState<boolean>(false);
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/index.html" element={<PostList />}></Route>
         <Route path="/posts/:id" element={<PostPage />}></Route>
+        <Route path="/regions/demande-de-cni" element={<Cni />}></Route>
       </Routes>
     </BrowserRouter>
   );

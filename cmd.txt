@@ -17,9 +17,12 @@ gcloud sql users set-password bloguser \
 
 # Pour créer un bucket serve frontend: 
 gsutil mb -l us-central1 gs://blog-frontend-site
+gsutil mb -l us-central1 gs://blog.mouhamadougaye.com
 
 # Rendre les fichiers publics
 gsutil iam ch allUsers:objectViewer gs://blog-frontend-site
+gsutil iam ch allUsers:objectViewer gs://blog.mouhamadougaye.com
+
 gsutil iam ch allUsers:objectViewer gs://blog-images-money-transfer-frontend
 
 
@@ -37,3 +40,10 @@ gcloud storage buckets create gs://blog-frontend-site --location=us-central1
 gcloud storage buckets add-iam-policy-binding gs://blog-frontend-site \
 --member=allUsers \
 --role=roles/storage.objectViewer
+
+
+
+google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk
+
+google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk
+google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk

@@ -1,0 +1,5602 @@
+[
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "GOREE",
+    "commune": "GOREE",
+    "district": "MBAMBARA",
+    "population": "284"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "GOREE",
+    "commune": "GOREE",
+    "district": "PONTY",
+    "population": "701"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "GOREE",
+    "commune": "GOREE",
+    "district": "TONGHOR",
+    "population": "367"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "GOREE",
+    "commune": "GOREE",
+    "district": "CASTEL",
+    "population": "339"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "CITE CAP VERDIENNE",
+    "population": "779"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "DAROU SALAM I",
+    "population": "1218"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "DIECKO",
+    "population": "906"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "DIECKO PLATEAU II",
+    "population": "413"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "GOUYE SALANE",
+    "population": "638"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "HOCK SANS FILS",
+    "population": "4027"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "KAYES FINDIW",
+    "population": "2129"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "LAMBINASSE",
+    "population": "971"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "MBOTTE",
+    "population": "440"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "NIAYE THIOCKER",
+    "population": "2153"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "PARC FOURRAGE",
+    "population": "950"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "PETERSEN",
+    "population": "1346"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "REUBEUSS",
+    "population": "9693"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "ROUKHOU DJINE",
+    "population": "1889"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "SANDIAL",
+    "population": "3453"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "THIEDEME",
+    "population": "953"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "DAKAR PLATEAU",
+    "district": "YAKHA DIEUF",
+    "population": "2993"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "ABATTOIRS I",
+    "population": "2201"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "ABATTOIRS II",
+    "population": "2245"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "ABATTOIRS III",
+    "population": "1017"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "ABATTOIRS IV",
+    "population": "1337"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "ABATTOIRS V",
+    "population": "2006"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "BOULEVARD GENERAL DE GAULLE",
+    "population": "1732"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "DIECKO NORD I",
+    "population": "2788"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "DIECKO NORD II",
+    "population": "4029"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "DIECKO PINTH",
+    "population": "4110"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "DIECKO SUD",
+    "population": "2562"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GIBRALTAR I",
+    "population": "1757"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GIBRALTAR II",
+    "population": "2275"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE MARIAMA LAYENE",
+    "population": "2428"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE MARIAMA PINTH",
+    "population": "4844"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE SALANE II",
+    "population": "2356"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE SALANE PINTH",
+    "population": "7221"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE SALANE I",
+    "population": "3466"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE TANN",
+    "population": "3445"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "KAYE OUSMANE DIENE",
+    "population": "5053"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "MBACKEUNEU",
+    "population": "1835"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "NGARAFF",
+    "population": "1478"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "NGARAFF PINTH",
+    "population": "3436"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "RASS MISSION",
+    "population": "1802"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "SANTHIABA PINTH",
+    "population": "2293"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "THIEURIGNE I",
+    "population": "1350"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "THIEURIGNE II",
+    "population": "2264"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "TILENE",
+    "population": "2586"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "DIECKO NORD III",
+    "population": "3487"
+  },
+  {
+    "region": "DAKAR",
+    "department": "DAKAR",
+    "arrondissement": "VILLE DE DAKAR",
+    "commune": "MEDINA",
+    "district": "GOUYE SALANE III",
+    "population": "5141"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "GUINAW RAIL",
+    "population": "5063"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "HANENE",
+    "population": "4196"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "KEUR MACODOU",
+    "population": "1953"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "NDIAYENE GOUYE",
+    "population": "3091"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "NGANDIOLE",
+    "population": "3846"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "KHOMBOLE",
+    "commune": "KHOMBOLE",
+    "district": "NGHAYE",
+    "population": "2172"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "ALWAR",
+    "population": "1629"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "GARAGE",
+    "population": "1349"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "HLM",
+    "population": "1140"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "KEUR SEYDOU",
+    "population": "2694"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "MBAMBARA",
+    "population": "2436"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "MBAYENE",
+    "population": "2817"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "SANTHIE",
+    "population": "1899"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "THIEKENE",
+    "population": "2532"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "THERIGNE",
+    "population": "2181"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "TOUBA POUT",
+    "population": "3685"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "TOUCOULEUR",
+    "population": "5362"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "POUT",
+    "commune": "POUT",
+    "district": "SANTE YALLA",
+    "population": "2150"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "BABACK OUOLOF",
+    "population": "94"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "BABACK SERERE",
+    "population": "758"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 NDIODIONE",
+    "population": "774"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H2 NGOKHOTHIE",
+    "population": "418"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H3 DIAMAGUENE",
+    "population": "582"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "BIRBIRANE",
+    "population": "329"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 DAFKA",
+    "population": "63"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H2 DANGHAM",
+    "population": "52"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H3 KAMBOUSKA",
+    "population": "96"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "DIASS PALAM",
+    "population": "389"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H3 KEUR MBATE",
+    "population": "83"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "DIOUNGANE",
+    "population": "1377"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 SINTHIANE",
+    "population": "143"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H2 CISSIS",
+    "population": "74"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "GOTTE 1",
+    "population": "250"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 KEUR SERIGNE SALIOU",
+    "population": "103"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H2 DAROU DIA",
+    "population": "29"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "GOTTE 2",
+    "population": "298"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "HANENE",
+    "population": "3448"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR AMAR DIAKHOU",
+    "population": "282"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 WOUROOGOL",
+    "population": "62"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR AMAR MANE",
+    "population": "363"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR BANDA GUEYE (KEUR MAMOUR)",
+    "population": "522"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR BANDA SAMB (SAMBENE)",
+    "population": "90"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR BARA KAIRE",
+    "population": "540"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 PEULGA",
+    "population": "736"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR BIRIMA KOURA",
+    "population": "68"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "H1 TOUBA DIOBASS",
+    "population": "100"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR DEMBA KEBE",
+    "population": "265"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR DIATTA",
+    "population": "450"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR DIEMBE NDIAYE",
+    "population": "531"
+  },
+  {
+    "region": "THIES",
+    "department": "THIES",
+    "arrondissement": "NOTTO",
+    "commune": "NOTTO",
+    "district": "KEUR IBRA FALL",
+    "population": "1434"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR I",
+    "population": "3563"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR II",
+    "population": "4512"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR III",
+    "population": "1669"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR IV",
+    "population": "2806"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR V",
+    "population": "2379"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR VI",
+    "population": "1804"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR VII",
+    "population": "3048"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR VIII",
+    "population": "3019"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR IX",
+    "population": "1578"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR X",
+    "population": "1026"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "DAGANA",
+    "commune": "DAGANA",
+    "district": "SECTEUR XI",
+    "population": "1164"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "CAMPEMENT CIVIL",
+    "population": "7409"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "ESCALE",
+    "population": "4401"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "GAE II",
+    "population": "4404"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "GALLO MALICK",
+    "population": "5380"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "KHOUMA WOLOF",
+    "population": "12840"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "YAKH SABAR",
+    "population": "4504"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "NDIANGUE",
+    "population": "4405"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "NDIAW",
+    "population": "7291"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "NDOMBO ALARBA",
+    "population": "1256"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "NOUROU",
+    "population": "4189"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "RICHARD TOLL",
+    "commune": "RICHARD TOLL",
+    "district": "THIABAKH",
+    "population": "17068"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BALANDE",
+    "population": "179"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 BOUNAMA YELOUR",
+    "population": "124"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H4 MAR 2",
+    "population": "293"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 SOWONABE KOUEL BALLANDE",
+    "population": "409"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BELEL NGUELOBA",
+    "population": "135"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BISNABE BOKIDIWE",
+    "population": "202"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 PAMPINABE",
+    "population": "109"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 BELI NDIATBE",
+    "population": "80"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BISNABE BIRAM SOKONE",
+    "population": "179"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H3 BELELLE SADIEGUI WORO MODERY",
+    "population": "13"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 BELEL SADIEGUI 2",
+    "population": "129"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BISNABE BOUTEYNI",
+    "population": "60"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 KEUR GNELY THIENGUEL",
+    "population": "156"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H4 BAWEDJI DIARKA",
+    "population": "89"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BELEL SADIE",
+    "population": "79"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 KEUR ABOU DIA",
+    "population": "7"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H3 KEUR SAMBA DINA SOW",
+    "population": "112"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H4 KEUR TALIBE SOW (BELELE GOUDEL)",
+    "population": "47"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 LOUMBE DIADBE",
+    "population": "163"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BISNABE DIAPOBE",
+    "population": "130"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 BISNABE SAM MAODA",
+    "population": "30"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H4 KEUR CHEIKH ALARBA SOW",
+    "population": "67"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "BISNABE PENDA YAYAKE PEUL",
+    "population": "714"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H1 KALOME 1",
+    "population": "43"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H3BOLEDI LESSO",
+    "population": "21"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 KALOME 2",
+    "population": "157"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H3 KEUR ALPHA SOW",
+    "population": "40"
+  },
+  {
+    "region": "SAINT-LOUIS",
+    "department": "DAGANA",
+    "arrondissement": "MBANE",
+    "commune": "MBANE",
+    "district": "H2 ODALE PENDA YAYAKE",
+    "population": "42"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "BAGHAGHA",
+    "population": "4271"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "H2 GONOUM",
+    "population": "329"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "BAINOUNCK",
+    "population": "34"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "DIAGNON",
+    "population": "1602"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "KOUNDIOUNDOU",
+    "population": "611"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "SINDONE",
+    "population": "1415"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "H1 SANTASSOU",
+    "population": "102"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "H2 LAGOUA",
+    "population": "274"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "TAMBACOUMBA",
+    "population": "983"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "BISSINE ALBONDY",
+    "population": "204"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "ADEANE",
+    "district": "BISSINE TENDA",
+    "population": "26"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BINDIALOUM MANJACQUE",
+    "population": "34"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 BINDIALOUM",
+    "population": "4"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BARAKA BOUNAO",
+    "population": "65"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 LABYSSENTH",
+    "population": "108"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BARAKA PAKAO",
+    "population": "27"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H2 YABONE (PIDOUR)",
+    "population": "32"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H3 SALMINGOU",
+    "population": "5"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BOFFA",
+    "population": "42"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 BOFFA (CAMP MILITAIRE)",
+    "population": "12"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BOUROFAYE BAINOUCK",
+    "population": "685"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 TOURECOUNDA de BOUROFAYE BAINOUCK",
+    "population": "69"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H2 TRAWOUL",
+    "population": "11"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H3 WASHINGTON",
+    "population": "35"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H5 BAGAYA",
+    "population": "39"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H8 BADIONKOTO I",
+    "population": "9"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H10 POUBOUL",
+    "population": "11"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H11 TEMENTO",
+    "population": "9"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BOUROFAYE DIOLA",
+    "population": "40"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 EKEU",
+    "population": "31"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H2 NIAFOULENE",
+    "population": "430"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H3 BOUNKILING",
+    "population": "125"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H4 BOUCOTTE MANCAGNE",
+    "population": "1547"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H5 KAKOUNOUM",
+    "population": "26"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "BOUTOUPA",
+    "population": "43"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 TRANQUILLE",
+    "population": "763"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "CAMARACOUNDA",
+    "population": "1344"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "GUIDEL BAMBADINKA",
+    "population": "23"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 BAMBADINKA",
+    "population": "125"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H3 FANGHOT MANJAQUE",
+    "population": "56"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 TEMPS",
+    "population": "12"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "LATY",
+    "population": "122"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H2 TEMENTO",
+    "population": "31"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "MAWA",
+    "population": "291"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 TOURECOUNDA de MAWA",
+    "population": "19"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "MPACK BRIGADIER",
+    "population": "474"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H1 DRAMECOUNDA",
+    "population": "12"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H2 NTABARANE",
+    "population": "389"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H3 KABANCANY",
+    "population": "195"
+  },
+  {
+    "region": "ZIGUINCHOR",
+    "department": "ZIGUINCHOR",
+    "arrondissement": "NIAGUIS",
+    "commune": "BOUTOUPA CAMARACOUNDA",
+    "district": "H4 KAMPADA",
+    "population": "153"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "ABATTOIRS",
+    "population": "9151"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "BONGRE",
+    "population": "4621"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "BOUSTANE 1",
+    "population": "3750"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "BOUSTANE 2",
+    "population": "3690"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DAROU SALAM DIAMAGUENE",
+    "population": "6680"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DAROU SALAM NDANGANE",
+    "population": "10919"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DIALEGNE 1",
+    "population": "7071"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DIALEGNE 2",
+    "population": "10409"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DIAMAGUENE 1",
+    "population": "3382"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DIAMAGUENE EXTENTION",
+    "population": "3216"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "FASS CAMP DES GARDES",
+    "population": "3196"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "GAWANE",
+    "population": "4889"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "HLM SARA",
+    "population": "854"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "KABATOKI",
+    "population": "7508"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "KASAVILLE",
+    "population": "8839"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "KASNACK",
+    "population": "6840"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "KOUNDAM",
+    "population": "4864"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "LEONA CENTRE",
+    "population": "5752"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "LEONA ESCALE",
+    "population": "1862"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "LYNDIANE",
+    "population": "1937"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "MEDINA BAYE",
+    "population": "22020"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "MEDINA MBABA 1",
+    "population": "3788"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "MEDINA MBABA 2",
+    "population": "11399"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NDANGANE",
+    "population": "2498"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NDAR GOU NDAW",
+    "population": "6524"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NDORONG 1",
+    "population": "2807"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NDORONG SADAGA",
+    "population": "4608"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NGANE ALLASSANE",
+    "population": "9964"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NGANE SAER",
+    "population": "7664"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NIMZATT",
+    "population": "5479"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "PARCELLES ASSAINIES",
+    "population": "6645"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "SAM",
+    "population": "14757"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "SAMA MOUSSA",
+    "population": "3054"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "SARA NDIOUGARY",
+    "population": "10130"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "SING SING",
+    "population": "4704"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "TABAGOYE 2",
+    "population": "5913"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "TABAYA (KASNACK NORD)",
+    "population": "3442"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "THIOFFACK",
+    "population": "26822"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "TOUBA KAOLACK",
+    "population": "12227"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "TOUBA KAOLACK EXTENSION",
+    "population": "7800"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DIAMAGUENE 2",
+    "population": "3311"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "FASS RIDWANE",
+    "population": "2768"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "KEUR MALOUM",
+    "population": "3706"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "NGADE",
+    "population": "1699"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "PEULGA",
+    "population": "1165"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "DAROU RIDWANE",
+    "population": "1282"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAOLACK",
+    "commune": "KAOLACK",
+    "district": "TABAGOYE",
+    "population": "3298"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAHONE",
+    "commune": "KAHONE",
+    "district": "DAMOU NGHAYE",
+    "population": "498"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAHONE",
+    "commune": "KAHONE",
+    "district": "DAROU HABIBI",
+    "population": "1916"
+  },
+  {
+    "region": "KAOLACK",
+    "department": "KAOLACK",
+    "arrondissement": "KAHONE",
+    "commune": "KAHONE",
+    "district": "FASS KAHONE",
+    "population": "1958"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "ABATTOIRS",
+    "population": "4145"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "ABATTOIRS COMPLEMENT",
+    "population": "9842"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "AFFIA",
+    "population": "8898"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "BOUCAR COUNDA",
+    "population": "628"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "CAMP NAVETANE",
+    "population": "6625"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DAROU SALAM",
+    "population": "1554"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DAROULAYE",
+    "population": "471"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DAYBATOU",
+    "population": "1849"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DEPOT",
+    "population": "5831"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DIALLO BOUGOU",
+    "population": "3475"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DIAMWELI 1 (SARE SILLY)",
+    "population": "845"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "DIAMWELI 2",
+    "population": "3897"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "GOUREL AMATH SOW",
+    "population": "3758"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "GOUREL BARRY",
+    "population": "2185"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "GOUREL DIADIE",
+    "population": "19631"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "GOUYE",
+    "population": "2296"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "KANDECOUNDA",
+    "population": "281"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "KANDERY",
+    "population": "1318"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "KOTHIARINDING",
+    "population": "719"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "LABA BOUGOU",
+    "population": "119"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "LIBERTE",
+    "population": "3555"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "LIBERTE EST",
+    "population": "3357"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "MEDINA COURA OUEST",
+    "population": "6551"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "PLATEAU",
+    "population": "10336"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "PONT 1",
+    "population": "6817"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "PONT 2",
+    "population": "4313"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "QUINZAMBOUGOU",
+    "population": "7415"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "SARE GUILEL",
+    "population": "14033"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "SARE ISSA",
+    "population": "6086"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "SARE MOUDOU (GOUREL MODOU)",
+    "population": "1431"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "TAMBA SOCE 1",
+    "population": "1972"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "TAMBACOUNDA",
+    "commune": "TAMBACOUNDA",
+    "district": "PONT 3",
+    "population": "4838"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "BOKIE LOTHIE (WOURO HAMA)",
+    "population": "490"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "BOULEL (SINTHIOU BOULEL)",
+    "population": "260"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "SINTHIOU DAWADY KOTO",
+    "population": "64"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "DAWADY MEISSA PATHE",
+    "population": "2926"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "DIARABOGUEL (FOULBES)",
+    "population": "106"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "H1 BOUSSOURA",
+    "population": "17"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "H2 HAMDALLAYE",
+    "population": "34"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "DIAREL ASSANE",
+    "population": "129"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "GADAFARA",
+    "population": "934"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "GAYE PARADJI (WOURO GELLADIO)",
+    "population": "164"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KALBIROM",
+    "population": "1056"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KEUR DEMBA AWA",
+    "population": "250"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KEUR OUSMANE",
+    "population": "227"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KOLOMBA",
+    "population": "731"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KOUMBIDIA",
+    "population": "213"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KOUSSANAR ESCALE",
+    "population": "7395"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KOUSSANAR SOCE",
+    "population": "4809"
+  },
+  {
+    "region": "TAMBACOUNDA",
+    "department": "TAMBACOUNDA",
+    "arrondissement": "KOUSSANAR",
+    "commune": "KOUSSANAR",
+    "district": "KOUTHIA KOTO FARINDALA MANDINGUE",
+    "population": "472"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "BANTANGUEL",
+    "population": "5676"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "BOUNA KANE",
+    "population": "6976"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "BEL AIR",
+    "population": "4086"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "GADAPARA",
+    "population": "7452"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SARE KEMO",
+    "population": "8364"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SARE MOUSSA",
+    "population": "7673"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "ZONE LYCEE",
+    "population": "6361"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "MEDINA",
+    "population": "9684"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SIKILO NORD",
+    "population": "5482"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SIKILO CENTRE OUEST",
+    "population": "8825"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "HILELE",
+    "population": "9846"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "NDIOBENE",
+    "population": "3708"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SINTHIANG IDRISSA",
+    "population": "4017"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "SINTHIANG TOUNTOUROU",
+    "population": "3495"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "KOLDA",
+    "commune": "KOLDA",
+    "district": "DOUMASSOU",
+    "population": "11929"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "BANTANCOUTOUYEL",
+    "population": "806"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "BODOYEL ABDOUL",
+    "population": "194"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "BODOYEL TALATA",
+    "population": "130"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DAIBATOU AMADOU KOSSY",
+    "population": "133"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DAROU SALAM THIERNO",
+    "population": "572"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DEMBEL WOURY KAMAKO",
+    "population": "62"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIADOUDICOUNDA",
+    "population": "723"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIALICOUNDA",
+    "population": "227"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIANAH",
+    "population": "70"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIARABOUGOU (SARE NGOLA)",
+    "population": "61"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIASSANE (SARE MAMADOU MAMA)",
+    "population": "74"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIEBANG",
+    "population": "252"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIOUFANA",
+    "population": "141"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIOULACOLON",
+    "population": "1009"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "DIOULAYEL",
+    "population": "634"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "FARABA",
+    "population": "1863"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "FASS DIAE",
+    "population": "2614"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "GUIRO YORO ALPHA",
+    "population": "612"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "GUIRO YORO MANDOU",
+    "population": "337"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "GUIRO YORO SALMANE",
+    "population": "187"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "KANKILING",
+    "population": "89"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "LINGUETO",
+    "population": "321"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MEDINA BOULY",
+    "population": "228"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MANATO SAKOU (SINTHIANG KIMBA)",
+    "population": "155"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MARVATA DIOKE (BAYA FOULBE)",
+    "population": "223"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MEDINA NAMO",
+    "population": "198"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "H1 SINTHIANG SOUARE",
+    "population": "40"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MISSIRAH BACODAYE (SARE DRAME)",
+    "population": "228"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "MISSIRAH SAMBA",
+    "population": "551"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SAM PATHE",
+    "population": "166"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SARE ALFOUSSEYNI",
+    "population": "144"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SARE COLY MBALLO",
+    "population": "54"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SARE DEMBA SY",
+    "population": "182"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SARE DIANAMBE KANDE",
+    "population": "28"
+  },
+  {
+    "region": "KOLDA",
+    "department": "KOLDA",
+    "arrondissement": "DIOULACOLON",
+    "commune": "DIOULACOLON",
+    "district": "SARE DIOUBA",
+    "population": "97"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "DIAMEL",
+    "population": "3934"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "GANDE",
+    "population": "6871"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "GOUREL SERIGNE",
+    "population": "6179"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "NAWEL",
+    "population": "3178"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "TANTADJI",
+    "population": "3819"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "MATAM",
+    "commune": "MATAM",
+    "district": "THIAYDE",
+    "population": "3714"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "AINOUMADY I",
+    "population": "1207"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "AINOUMADY II",
+    "population": "2663"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MANGO I",
+    "population": "1493"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MANGO II (DAROU SALAM)",
+    "population": "1637"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MANGO III",
+    "population": "2490"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MODERNE I",
+    "population": "2450"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MODERNE II",
+    "population": "2769"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "MODERNE III",
+    "population": "8165"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "WINDE I",
+    "population": "3150"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "OUROSSOGUI",
+    "commune": "OUROSSOGUI",
+    "district": "WINDE II",
+    "population": "1198"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM BALNABE",
+    "population": "424"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM CIVOL",
+    "population": "4566"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H1 EDIT",
+    "population": "198"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM GODO",
+    "population": "2270"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM GOLY",
+    "population": "5331"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM LIDOUBE",
+    "population": "1250"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM THIODAYE",
+    "population": "5809"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM TOULEL THIALE",
+    "population": "1535"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H1 FETE DIABY",
+    "population": "551"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H2 TOULDE",
+    "population": "45"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM WOURO CIRE",
+    "population": "1970"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H1 NDOUSSADJI OURO SAMBA DJINDE",
+    "population": "326"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H2 DEBODJI I OURO ELHADJI DEMBA DIERY SOW",
+    "population": "91"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H3 LOUMBY LESS DEBODJI (WOURO MAMADOU ALASSANE)",
+    "population": "65"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H4 LOUMBY LESS",
+    "population": "117"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "AGNAM YEROYABE",
+    "population": "548"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H2 BAGONDE YERO YABE",
+    "population": "773"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "KANGAL KARADJI",
+    "population": "226"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "MBERLA BELE",
+    "population": "979"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H1 GOUREL MOUSSA GALLO SOW",
+    "population": "34"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H2 GOUREL MOUSSA BA",
+    "population": "77"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H3 WOYNDOU BOTHIE",
+    "population": "77"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H4 BELLA",
+    "population": "272"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H5 OURO MBARGO",
+    "population": "41"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H6 MBEDA",
+    "population": "91"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H7 OURO NGOUBEL",
+    "population": "58"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "NDIAFFANE BELLY THINDE",
+    "population": "672"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H1 WORO THILOUKI",
+    "population": "147"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "H2 YILAM",
+    "population": "60"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "NDIAFFANE SOROKOUM",
+    "population": "1491"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "SINTHIOU BOUMAKA",
+    "population": "1197"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "SINTHIOU CIREMATOU",
+    "population": "1349"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "AGNAM CIVOL",
+    "district": "SYLLA WORGO",
+    "population": "718"
+  },
+  {
+    "region": "MATAM",
+    "department": "MATAM",
+    "arrondissement": "AGNAM CIVOL",
+    "commune": "OREFONDE",
+    "district": "ASNDE BALLA",
+    "population": "1255"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "CROISEMENT TP",
+    "population": "2685"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "DARAL",
+    "population": "4948"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "DAROU SALAM",
+    "population": "4421"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "ESCALE",
+    "population": "2134"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "LOGANDEME",
+    "population": "1854"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "MBOUBANE",
+    "population": "2014"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "NDIANDIAYE I",
+    "population": "4944"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "NDIANDIAYE II",
+    "population": "2027"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "NDOUCK",
+    "population": "4061"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "PEULGA",
+    "population": "4920"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "FATICK",
+    "commune": "FATICK",
+    "district": "POUKHAM",
+    "population": "5353"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "DIOFFIOR",
+    "commune": "DIOFFIOR",
+    "district": "DIONGFA",
+    "population": "5532"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "DIOFFIOR",
+    "commune": "DIOFFIOR",
+    "district": "SINDIANEKA",
+    "population": "7263"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "BOFA COP",
+    "population": "149"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 FELANE COP",
+    "population": "442"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "DIAMBEYE TIGA",
+    "population": "323"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "DIAOULE 1 ET 4",
+    "population": "1919"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 PETHIAKA",
+    "population": "144"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "DIAOULE 3",
+    "population": "155"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "DIAT MOURY",
+    "population": "297"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 KEUR DIATTA",
+    "population": "263"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H8 KEUR NDENE BOP",
+    "population": "76"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H3 BIRAME MACK",
+    "population": "105"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H4 KEUR MALICK SARR",
+    "population": "71"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H5 KEUR MANDIAYE",
+    "population": "77"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H6 KEUR LAMINE SENE",
+    "population": "181"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H7 KEUR MANDIOC",
+    "population": "142"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "FELANE (FELANE GOUMA)",
+    "population": "623"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 KEUR BIRAME PATHE",
+    "population": "166"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H2 NDIORAKOUM",
+    "population": "212"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "GALANGUE PEULH",
+    "population": "73"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "GALANGUE SERERE",
+    "population": "379"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 THIENABA",
+    "population": "88"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H2 TOUCAR",
+    "population": "70"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H3 NGALAGNE",
+    "population": "178"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H4 NGALAGNE COKE",
+    "population": "31"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H5 KEUR MOR GUEYE",
+    "population": "113"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H6 KEUR DIEL DIOUF",
+    "population": "169"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H7 KEUR BOCAR GUEYE",
+    "population": "100"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KEUR BISSICK",
+    "population": "205"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 MBESS SOUMBEL",
+    "population": "188"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KEUR DIARNO",
+    "population": "229"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KHODJIL",
+    "population": "256"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 KHODJIL BOUMACK",
+    "population": "63"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H2 KEUR THIERNO DIALLO",
+    "population": "92"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H3 WOURO MBAYE",
+    "population": "49"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KORA 1",
+    "population": "268"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "H1 FOUGHEME",
+    "population": "57"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KORA 2",
+    "population": "77"
+  },
+  {
+    "region": "FATICK",
+    "department": "FATICK",
+    "arrondissement": "NDIOP",
+    "commune": "DIAOULE",
+    "district": "KORA 3",
+    "population": "51"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "DIAMAGUENE CENTRE",
+    "population": "8453"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "DIAMAGUENE NDIOBENE",
+    "population": "6130"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "DIAMAGUENE TP",
+    "population": "11581"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "ESCALE EST",
+    "population": "2711"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "KAFFRINE NORD",
+    "population": "4966"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "KAFFRINE SUD",
+    "population": "5436"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "MBAMBA",
+    "population": "6744"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "PEYE",
+    "population": "4896"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "ESCALE OUEST/CITE MILLIONNAIRE",
+    "population": "2262"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "KAFFRINE",
+    "commune": "KAFFRINE",
+    "district": "MEDINA BAYE",
+    "population": "4128"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "ALOUKY (TERRES NEUVES) ET ALOUKY SY",
+    "population": "1401"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H2 NELBEL",
+    "population": "176"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H3 BAYE NDIAYE",
+    "population": "98"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H4 ALOUKY KAHI",
+    "population": "389"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H5 DAROU KARIM",
+    "population": "166"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H6 NELBEL SERERE",
+    "population": "132"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H7 DAROU DIOP",
+    "population": "41"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "BOULEL GOUMACK",
+    "population": "3675"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 NIETY GOUYE",
+    "population": "527"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H2 MBETHIE PEULH",
+    "population": "219"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H3 TAÏF THISSE",
+    "population": "212"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "DAROU SALAM III",
+    "population": "324"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "DIAKHAO SALOUM",
+    "population": "2177"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 KAKARE",
+    "population": "263"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "DIOUT NGEUL I",
+    "population": "1606"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 KAYE NIALBE",
+    "population": "129"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "DIOUT NGUEL II",
+    "population": "470"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "FASS GOULAKOUM",
+    "population": "578"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "GOULOKOUM",
+    "population": "1345"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 DIABA (DIABO)",
+    "population": "13"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "HORE",
+    "population": "1038"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "KHENDE",
+    "population": "2254"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 KEUR SAMBA",
+    "population": "26"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "KOUYANDE KANDJI",
+    "population": "791"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H2 NDIABAYENE",
+    "population": "44"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 DIAYANE",
+    "population": "189"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "KOUYANDE NDIAYE",
+    "population": "363"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H2 MBATHIERE",
+    "population": "298"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H3 KOUYANDE TEOUROU",
+    "population": "123"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 TEOUROU",
+    "population": "87"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "LANEL (LANENE)",
+    "population": "1001"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 BOURLEYE LANEL",
+    "population": "65"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "LAHI",
+    "population": "578"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 MIDIO",
+    "population": "110"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H2 FORET",
+    "population": "99"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "HI KEUR ELHADJI SAMBA SOW",
+    "population": "70"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "MBOUL PEULH",
+    "population": "485"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 NGASSAMA SERERE",
+    "population": "126"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "MEDINA KEBE",
+    "population": "780"
+  },
+  {
+    "region": "KAFFRINE",
+    "department": "KAFFRINE",
+    "arrondissement": "GNIBY",
+    "commune": "BOULEL",
+    "district": "H1 GALOLY  PEULH",
+    "population": "240"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "DALABA",
+    "population": "3865"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "DANDEMAYO",
+    "population": "6122"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "DINGUESSOU (PASTEUR BUTLER)",
+    "population": "10760"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "FADIGA",
+    "population": "1844"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "NDIORMI (GADA DINGUESSOU)",
+    "population": "11614"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "GOMBA (TRIPANO)",
+    "population": "14508"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "KEGNETO PEULH",
+    "population": "1284"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "MEDINA KEGNETO",
+    "population": "623"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "MOSQUEE",
+    "population": "5331"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "KEDOUGOU",
+    "commune": "KEDOUGOU",
+    "district": "TOGORO",
+    "population": "3280"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "BADEMBAN (IWOL)",
+    "population": "357"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 GUINGARA",
+    "population": "165"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "BAITILAYE",
+    "population": "818"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "BANDAFASSI PEULH",
+    "population": "931"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 TAKOUROU",
+    "population": "145"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 SANTAKHO",
+    "population": "363"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H3 SILING",
+    "population": "17"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H6 SINTHIOU SITELLY",
+    "population": "3"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "BANDAFASSI TANDA",
+    "population": "178"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 INDAR",
+    "population": "176"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 SILLY BASSARI",
+    "population": "44"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H3 SILLY PEULH",
+    "population": "154"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H4 MERESSI",
+    "population": "83"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "BOUNDOUCONDI",
+    "population": "411"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 NATHIA",
+    "population": "321"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "DAR SALAM 1",
+    "population": "192"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "DIENDJI DIAKHA",
+    "population": "470"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 NIANGHE BASSARI",
+    "population": "34"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "HABIBOU",
+    "population": "216"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "IBEL",
+    "population": "1171"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 CARRIERE",
+    "population": "40"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 DAMBOUKOYE",
+    "population": "158"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "ITATO",
+    "population": "214"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 MAREWA",
+    "population": "34"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 THIANKOU MALAL",
+    "population": "350"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "LAMINIA",
+    "population": "1456"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "LANDE BAITYL",
+    "population": "427"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "LANDIENI PEULH",
+    "population": "296"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "LANDIENY TANDA",
+    "population": "217"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "NIANGHE",
+    "population": "253"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "PATASSY",
+    "population": "287"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H2 CARREFOUR NDIAYE PRAYA",
+    "population": "11"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "SAMECOUTA",
+    "population": "1965"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 DOUTADING",
+    "population": "43"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "SINTHIOU ROUDJI",
+    "population": "337"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "SYLLACOUNDA DIAKHA",
+    "population": "1139"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "H1 TAIFA",
+    "population": "188"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "SYLLACOUNDA PEULH",
+    "population": "124"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "THIABEDJI",
+    "population": "1135"
+  },
+  {
+    "region": "KEDOUGOU",
+    "department": "KEDOUGOU",
+    "arrondissement": "BANDAFASSI",
+    "commune": "BANDAFASSI",
+    "district": "THIOKETHIAN",
+    "population": "562"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "JULESCOUNDA",
+    "population": "1307"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "KABEUMB",
+    "population": "2772"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "MANSACOUNDA",
+    "population": "3188"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "MONTAGNE ROUGE",
+    "population": "3821"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "MORICOUNDA",
+    "population": "4817"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "SANTASSOU I",
+    "population": "3285"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "SANTASSOU II",
+    "population": "4504"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "DEMBAYA",
+    "population": "2727"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "GOUDIABYA",
+    "population": "1888"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "SEDHIOU",
+    "commune": "SEDHIOU",
+    "district": "SANTASSOU III",
+    "population": "3202"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "BELALY",
+    "population": "1735"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "ESCALE",
+    "population": "797"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "GRAND DAKAR",
+    "population": "1125"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "KANKABA",
+    "population": "1887"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "MANGUIR",
+    "population": "281"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "SOURWACOUNDA",
+    "population": "1699"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "TAIBA",
+    "population": "776"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "MARSASSOUM",
+    "commune": "MARSASSOUM",
+    "district": "TORONCOCOUNDA",
+    "population": "1515"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "AYNOUSSALAM",
+    "population": "253"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BADIANDIAN DIOLA",
+    "population": "725"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BADIANDIAN MANCAGNE",
+    "population": "273"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H1 BADIANDIAN SOUCOTOTO",
+    "population": "81"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BAKOUM MANCAGNE",
+    "population": "81"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BAKOUM MANDINGUE",
+    "population": "897"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BISSARI (DIOUNKOYA)",
+    "population": "618"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H1 SINTHIANG IBRAHIMA",
+    "population": "26"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H2 TAMBACOURA",
+    "population": "108"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H3 SINTHIANG YORO SANE",
+    "population": "16"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H4 BISSARI (DIOUNKOUYA)",
+    "population": "7"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BOUSSOURA ELHADJI KARAMBA",
+    "population": "461"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "DIATOUMA MANDINGUE",
+    "population": "876"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "DIATOUMA REFUGIE",
+    "population": "98"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "DIENDE",
+    "population": "2195"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H2 SINTHIANG KORKA",
+    "population": "18"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "DJIDATOU EL HADJ KHALIFA",
+    "population": "341"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "IDA",
+    "population": "560"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "BLOC STATION",
+    "population": "639"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H2 SIDOUYA (NGALPANTE)",
+    "population": "84"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H3 DIENDE 2",
+    "population": "42"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "KOUNAYAN DIOLA",
+    "population": "107"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "KOUNAYAN MANCAGNE",
+    "population": "418"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "H1 KOUNAYAN MANCAGNE",
+    "population": "76"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "KOUNAYAN MANDING",
+    "population": "651"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "MADINA FINDIFETO",
+    "population": "801"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "MADINA UC I",
+    "population": "102"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "SALIKEGNE",
+    "population": "524"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "SALIKEGNE SOUCOUTOTO",
+    "population": "771"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "SEFA",
+    "population": "322"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "SITABA",
+    "population": "1338"
+  },
+  {
+    "region": "SEDHIOU",
+    "department": "SEDHIOU",
+    "arrondissement": "DIENDE",
+    "commune": "DIENDE",
+    "district": "TOURECOUNDA",
+    "population": "1277"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "ARTILLERIE NORD",
+    "population": "9339"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "ARTILLERIE SUD",
+    "population": "5479"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "KEUR SERIGNE LOUGA EST",
+    "population": "17504"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "KEUR SERIGNE LOUGA NORD",
+    "population": "4747"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "KEUR SERIGNE LOUGA SUD",
+    "population": "17299"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "MONTAGNE NORD",
+    "population": "13948"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "MONTAGNE SUD",
+    "population": "6056"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "SANTHIABA CENTRE",
+    "population": "10954"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "SANTHIABA NORD",
+    "population": "14217"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "SANTHIABA SUD",
+    "population": "9997"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "LOUGA",
+    "commune": "LOUGA",
+    "district": "THIOKHNA",
+    "population": "3825"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BAL NGUER",
+    "population": "78"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BELEL OUOLOF",
+    "population": "1033"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H1 HOUDANE",
+    "population": "166"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BELEL PEULH",
+    "population": "245"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BOFFEL ALASSANE",
+    "population": "596"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H1 GADGA",
+    "population": "95"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BOFFEL MANDIAYE",
+    "population": "46"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "BRAYLENE",
+    "population": "144"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "COKI",
+    "population": "11099"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "COKI HEDE",
+    "population": "179"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "DADIALO",
+    "population": "342"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H1 DEBOLATE PEUL",
+    "population": "149"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "DAROU RAHMANE",
+    "population": "19"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "DEBOLATE",
+    "population": "104"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "DIADIORDE I",
+    "population": "578"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "DIADIORDE II",
+    "population": "289"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "FADAM",
+    "population": "445"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H1 DORYGA",
+    "population": "134"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H2 POUTHIO MADJI PEULH (KEUR DINGUERE)",
+    "population": "110"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "HEDE",
+    "population": "253"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KANENE HALL",
+    "population": "256"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KANENE KHAR (TOUBA KANENE)",
+    "population": "298"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KEBE SYLLA",
+    "population": "119"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KEUR MASSAL 1 (NDIOBENE)",
+    "population": "183"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KEUR MASSAL 2 (SANTHIE)",
+    "population": "81"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H2 ADIENNE",
+    "population": "50"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KEUR NGOURA",
+    "population": "684"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "KEUR SALA",
+    "population": "373"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "LOUMENE",
+    "population": "183"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "MBACKE NDIOCK",
+    "population": "37"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDALLA AWEME",
+    "population": "296"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDALLA MBOUBENE",
+    "population": "638"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDIAKHAR",
+    "population": "811"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDIARE WAKHY",
+    "population": "771"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "H1 KEUR DIABEL",
+    "population": "86"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDIAYENE BALLA",
+    "population": "64"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDIEURE",
+    "population": "71"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "NDIOBENE BELAL",
+    "population": "606"
+  },
+  {
+    "region": "LOUGA",
+    "department": "LOUGA",
+    "arrondissement": "COKI",
+    "commune": "COKI",
+    "district": "OUARACK 1",
+    "population": "1251"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "DIOURBEL",
+    "commune": "DIOURBEL",
+    "district": "CHEIKH ANTA MBACKE",
+    "population": "26112"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "DIOURBEL",
+    "commune": "DIOURBEL",
+    "district": "KEUR CHEIKH IBRA FALL",
+    "population": "21843"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "DIOURBEL",
+    "commune": "DIOURBEL",
+    "district": "MEDINATOUL (KEUR GOUMACK)",
+    "population": "62812"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "DIOURBEL",
+    "commune": "DIOURBEL",
+    "district": "THIERNO KANDJI",
+    "population": "46787"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "DANKH SENE 1",
+    "population": "600"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "DAROU KHADIM",
+    "population": "205"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 KEUR DIENE DIAGNE",
+    "population": "109"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 KEUR OUSMANE NIANG",
+    "population": "49"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H3 DEGUE SANGHE",
+    "population": "279"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "DAROU SALAM GALLE 1",
+    "population": "102"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 KEUR BADARA KONTEYE",
+    "population": "219"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "DAROU SALAM GALLE 2",
+    "population": "27"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 KITAL",
+    "population": "544"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "DONGHO",
+    "population": "417"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "GALLE",
+    "population": "227"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H3 GALLE PEUL",
+    "population": "127"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 NGUEL SASSE",
+    "population": "114"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "KEUR NDIANKOU",
+    "population": "25"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 NDABO",
+    "population": "42"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 MBOYENE",
+    "population": "133"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "LOMENE",
+    "population": "375"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 KEUR SERIGNE DIA",
+    "population": "10"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "MBAPPE",
+    "population": "284"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 DEGOUNE",
+    "population": "22"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H5 NGUIDITE",
+    "population": "235"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H6 KANENE",
+    "population": "52"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H7 MALANE (COMMUNE DAROU MOUKHTY)",
+    "population": "57"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H9 BOWDE",
+    "population": "41"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H10 BAWDE",
+    "population": "221"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "MBAYENE DANKH",
+    "population": "298"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 MEKHANE",
+    "population": "19"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 MEKHAYE",
+    "population": "43"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "MBOUMY",
+    "population": "142"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 KEUR OUSMANE DIOP",
+    "population": "41"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H3 KEUR  ABOU KA",
+    "population": "8"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIAGUINTH",
+    "population": "46"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 KEUR ADIOUMA BA",
+    "population": "151"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 KEUR SOUDOU POUYE",
+    "population": "211"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIA 1",
+    "population": "76"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIA 2",
+    "population": "329"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 LOMENE",
+    "population": "41"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIA 3",
+    "population": "28"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIOGOP DIOP",
+    "population": "1399"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NDIOGOP NDIAYE",
+    "population": "481"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "NGUEYE NGUEYE",
+    "population": "477"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H1 THIERERE KALOM",
+    "population": "43"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H2 BASSEL",
+    "population": "38"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H3 KEUR GUIDIE DIAGNE",
+    "population": "138"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "H4 KEUR WAGANE",
+    "population": "312"
+  },
+  {
+    "region": "DIOURBEL",
+    "department": "DIOURBEL",
+    "arrondissement": "NDINDY",
+    "commune": "NDANKH SENE",
+    "district": "TAMAKA",
+    "population": "142"
+  }
+]
