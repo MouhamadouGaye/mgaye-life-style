@@ -1,1494 +1,746 @@
 {
   "regions": [
     {
-      "name": "DAKAR",
-      "departments": [
-        {
-          "name": "DAKAR",
-          "arrondissements": [
-            {
-              "name": "GOREE",
-              "communes": [
-                {
-                  "name": "GOREE",
-                  "districts": [
-                    "CASTEL",
-                    "PONTY",
-                    "TONGHOR",
-                    "MBAMBARA"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "VILLE DE DAKAR",
-              "communes": [
-                {
-                  "name": "DAKAR PLATEAU",
-                  "districts": [
-                    "DIECKO",
-                    "DAROU SALAM I",
-                    "DIECKO PLATEAU II",
-                    "KAYES FINDIW",
-                    "LAMBINASSE",
-                    "PARC FOURRAGE",
-                    "MBOTTE",
-                    "HOCK SANS FILS",
-                    "SANDIAL",
-                    "ROUKHOU DJINE",
-                    "PETERSEN",
-                    "GOUYE SALANE",
-                    "NIAYE THIOCKER",
-                    "THIEDEME",
-                    "YAKHA DIEUF",
-                    "CITE CAP VERDIENNE",
-                    "REUBEUSS"
-                  ]
-                },
-                {
-                  "name": "MEDINA",
-                  "districts": [
-                    "KAYE OUSMANE DIENE",
-                    "GIBRALTAR II",
-                    "NGARAFF PINTH",
-                    "GOUYE SALANE I",
-                    "DIECKO NORD II",
-                    "ABATTOIRS IV",
-                    "GOUYE TANN",
-                    "GIBRALTAR I",
-                    "GOUYE SALANE III",
-                    "GOUYE SALANE PINTH",
-                    "TILENE",
-                    "DIECKO NORD III",
-                    "DIECKO NORD I",
-                    "THIEURIGNE I",
-                    "GOUYE MARIAMA PINTH",
-                    "THIEURIGNE II",
-                    "ABATTOIRS III",
-                    "DIECKO PINTH",
-                    "ABATTOIRS V",
-                    "NGARAFF",
-                    "DIECKO SUD",
-                    "ABATTOIRS I",
-                    "ABATTOIRS II",
-                    "SANTHIABA PINTH",
-                    "GOUYE MARIAMA LAYENE",
-                    "RASS MISSION",
-                    "GOUYE SALANE II",
-                    "MBACKEUNEU",
-                    "BOULEVARD GENERAL DE GAULLE"
-                  ]
-                }, 
-                {
-                  "name": "GUEULE TAPEE FASS COLOBANE",
-                  "districts": [
-                    "COLOBANE BAYELAYE",
-                    "COLOBANE HOCK",
-                    "COLOBANE HOCK PINTH",
-                    "COLOBANE TSF",
-                    "FASS BATIMENT (FASS LOUVEAU)",
-                    "FASS CASIER",
-                    "FASS DELORME",
-                    "FASS PAILLOTTE",
-                    "GUEULE TAPEE I",
-                    "GUEULE TAPEE II",
-                    "GUEULE TAPEE III (NDOYENE)",
-                    "HLM FASS",
-                    "HLM GUEULE TAPEE (GUEULE TAPEE IV)"
-                  ]
-                }, 
-                {
-                  "name": "FANN POINT E AMITIE",
-                  "districts": [
-                    "FANN I",
-                    "FANN II",
-                    "FANN III",
-                    "FANN IV",
-                    "POINT E I",
-                    "POINT E II",
-                    "POINT E III",
-                    "POINT E IV",
-                    "AMITIE I",
-                    "AMITIE II",
-                    "FANN HOCK",
-                    "FANN RESIDENCE",
-                    "SICAP RUE X",
-                    "ZONE B  BALLON",
-                    "ZONE B  BATIMENT"
-                  ]
-
-                }, 
-                {
-                  "name": "GRAND DAKAR",
-                  "districts": [
-                    "GRAND DAKAR I A (DARABIS)",
-                    "GRAND DAKAR I B",
-                    "GRAND DAKAR II A",
-                    "GRAND DAKAR II B",
-                    "GRAND DAKAR IV A",
-                    "GRAND DAKAR IV B",
-                    "GRAND DAKAR VI A",
-                    "GRAND DAKAR VI B",
-                    "GRAND DAKAR VII A TAÏBA",
-                    "GRAND DAKAR VII B (ZONE A)",
-                    "GRAND DAKAR V A",
-                    "GRAND DAKAR III A",
-                    "GRAND DAKAR V B",
-                    "SICAP AMITIE III ANNEXE"
-                  ]
-                }, {
-                  "name": "BISCUITERIE",
-                  "districts": [
-                    "BISCUITERIE I A",
-                    "BISCUITERIE I B",
-                    "BISCUITERIE III",
-                    "BISCUITERIE KAYES",
-                    "BISCUITERIE MADIAMA",
-                    "BISCUITERIE TOUBA",
-                    "BISCUITERIE V (POTOU)",
-                    "BISCUITERIE VI (USINE PARC)",
-                    "BOPP",
-                    "CITE CHEIKH AHMADOU BAMBA",
-                    "CITE NDAR (OUAGOU NIAYES III)",
-                    "DJIDDAH NGUELAW",
-                    "GOUYE THIEURIGNE (CITE BISSAP)",
-                    "GRAND DAKAR X (NIARY TALLY)",
-                    "OUAGOU NIAYE I",
-                    "OUAGOU NIAYE II",
-                    "USINE BEN TALLY (BISCUITERIE IV MISTRA)",
-                    "ZONE INDUSTRIELLE",
-                    "BISCUITERIE II",
-                    "GRAND DAKAR XI"
-                  ]
-                }, 
-
-                {
-                  "name": "HLM",
-                  "districts": [
-                    "CITE DES EAUX",
-                    "CITE DOUANES",
-                    "CITE PORT",
-                    "HLM ANGLE MOUSSE",
-                    "HLM I",
-                    "HLM II",
-                    "HLM III",
-                    "HLM IV A",
-                    "HLM IV B",
-                    "HLM IV C",
-                    "HLM MONTAGNE (ZONE ARTISANALE N° IV)",
-                    "HLM NIMZATT (HLM VI)",
-                    "HLM V A",
-                    "HLM V B"
-                  ]
-                }, {
-                  "name": "HANN BEL AIR",
-                  "districts": [
-                      "CITE BELLE VUE",
-                      "CITE ELISABETH DIOUF",
-                      "CITE ISRA",
-                      "CITE KEUR YARAKH",
-                      "CITE MARINAS",
-                      "CITE SANDIAL",
-                      "CITE SCAT URBAM MARISTE I",
-                      "CITE SCAT URBAM MARISTE II",
-                      "CITE SOME",
-                      "FORD B",
-                      "HANN EQUIPE",
-                      "HANN GANGUI",
-                      "HANN III",
-                      "HANN MARIGOT II",
-                      "HANN MARISTE",
-                      "HANN MONTAGNE VI",
-                      "HANN PARC I",
-                      "HANN PARC II",
-                      "HANN SANTHIE",
-                      "HANN YENE",
-                      "HLM HANN MARISTE",
-                      "WALOGUI (HANN PLAGE)",
-                      "HANN MONTAGNE V A",
-                      "HANN MONTAGNE V B",
-                      "HANN PECHEURS I",
-                      "HANN PECHEURS  II",
-                      "PORT",
-                      "POTOU"
-
-
-                  ]
-                }, {
-                  "name": "SICAP LIBERTE", 
-                  "districts": [
-                    "CITE BARAQUE",
-                    "SICAP LIBERTE I",
-                    "SICAP LIBERTE II",
-                    "SICAP LIBERTE III",
-                    "SICAP LIBERTE IV",
-                    "SICAP LIBERTE V",
-                    "SICAP LIBERTE VI",
-                    "LIBERTE VI EXTENSION"
-                  ]
-                },  {
-                  "name" : "DIEUPPEUL DERKLE",
-                  "districts": [
-                    "CASTOR (CITE ELEVAGE)",
-                    "CASTOR (CITE MARINE)",
-                    "CASTOR I",
-                    "CASTOR II",
-                    "CITE CASTOR III (BOURGUIBA)",
-                    "CITE ASECNA ET CITE SOTRAC",
-                    "CITE GEOGRAPHIE",
-                    "CITE GRANDE IMPRIMERIE AFRICAINE",
-                    "CITE MINIERE",
-                    "CITE NOSOCO",
-                    "CITE ORSTOM",
-                    "CITE PTT",
-                    "DERKLE (CITE CREDIT FONCIER)",
-                    "DERKLE (GAZELLE SOBOA)",
-                    "DERKLE II (DAROU SALAM)",
-                    "DERKLE II (MAGARY)",
-                    "DERKLE II (NOTAIRE)",
-                    "DIEUPPEUL II (CITE PRESTATION FAMILIALE)",
-                    "SICAP DIEUPPEUL I",
-                    "SICAP DIEUPPEUL II",
-                    "SICAP DIEUPPEUL III",
-                    "SICAP DIEUPPEUL IV",
-                    "SICAP LIBERTE V B",
-                    "SICAP LIBERTE V C"
-                  ]
-                }, 
-                {
-                  "name": "OUAKAM",
-                  "districts": [
-                    "ANCIENNE PISTE",
-                    "BALLON",
-                    "BIRA OUAKAM (TOUBA OUAKAM)",
-                    "BOULGA",
-                    "CITE ASECNA",
-                    "CITE ASECNA III",
-                    "CITE ASSEMBLE NATIONALE",
-                    "CITE COMICO",
-                    "CITE COMMUNAUTE URBAINE",
-                    "CITE EL HADJI MALICK SY",
-                    "CITE ENSEIGNANT SUPERIEUR",
-                    "CITE URBANISME HABITAT",
-                    "GOUYE SOR",
-                    "LEONA",
-                    "MAMELLES AVIATION",
-                    "MBOUL",
-                    "MERINA (MERINA I)",
-                    "MERINA (MERINA II)",
-                    "MONTAGNE ROUGE",
-                    "OUAKAM CORNICHE",
-                    "RIP",
-                    "SACRE CŒUR III VDN",
-                    "SINTHIA",
-                    "SUD AFRICA",
-                    "TAGLOU",
-                    "TOUBA ALMADIES",
-                    "TOUBA OUAKAM II (CITE AVION)",
-                    "TOUBA RENAISSANCE",
-                    "ZONE DE L'AEROPORT",
-                    "BATRAIN"
-                  ]
-                },
-                {
-                  "name": "NGOR",
-                  "districts": [          
-                    "ALMADIES EST",
-                    "ALMADIES OUEST",
-                    "GRAND NGOR",
-                    "ILE DE NGOR",
-                    "NDIONGORANE",
-                    "NGOR VIRAGE",
-                    "PETIT NGOR",
-                    "PETIT NGOR (RESIDENCE NORD)",
-                    "ZONE EXTENSION EST",
-                    "ZONE EXTENSION OUEST",
-                    "ALMADIES (STATION SHELL)"
-                  ]
-                },
-                {"name" : "YOFF",
-                  "districts": [
-                    "ALMADIES NORD",
-                    "ALMADIES SUD",
-                    "ALMADIES SUD (RESIDENCE SUD)",
-                    "ALMADIES SUD (RESIDENCE NORD)",
-                    "ALMADIES SUD (RESIDENCE OUEST)",
-                    "ALMADIES SUD (RESIDENCE EST)",
-                    "YOFF CENTRE",
-                    "YOFF EST",
-                    "YOFF OUEST",
-                    "YOFF PLAGE", 
-                    "CDE",
-                    "CITE A. EL. MAS",
-                    "CITE AIR AFRIQUE A",
-                    "CITE AIR AFRIQUE B",
-                    "CITE AIR FRANCE",
-                    "CITE AIR SENEGAL",
-                    "CITE ALIA DIENE",
-                    "CITE AMADOU DIOP",
-                    "CITE APECSY ECOLOGIQUE",
-                    "CITE APECSY I",
-                    "CITE APECSY II EST",
-                    "CITE APECSY II OUEST",
-                    "CITE APECSY III",
-                    "CITE ASECNA",
-                    "CITE ASECNA EXTENSION",
-                    "CITE AZUR I",
-                    "CITE AZUR II",
-                    "CITE AZUR III",
-                    "CITE BARA MBOUP",
-                    "CITE BCEAO I",
-                    "CITE BCEAO II",
-                    "CITE BCEAO OCEAN",
-                    "CITE BIAGUI",
-                    "CITE DAKAR MARINE",
-                    "CITE DIACKSAO",
-                    "CITE DJILY MBAYE",
-                    "CITE IBRAHIMA NIANG",
-                    "CITE LA POSTE (DIAMALAYE)",
-                    "CITE LOBATT FALL",
-                    "CITE LONASE",
-                    "CITE PALENE",
-                    "CITE POSTE",
-                    "CITE SAGEF",
-                    "CITE SODALO",
-                    "CITE SONATEL",
-                    "CITE SONATEL III",
-                    "CITE TOBAGO",
-                    "DAGOUDANE",
-                    "DIAMALAYE EXTENSION",
-                    "DIAMALAYE I",
-                    "DIAMALAYE II",
-                    "DIAMALAYE III",
-                    "LAYENE",
-                    "MAME RHANE",
-                    "NDENATE",
-                    "NDEUNGAGNE",
-                    "NGAPAROU",
-                    "SICAP LAYENE",
-                    "SIPRES IV",
-                    "TELECOM RESIDENCE",
-                    "TERME NORD TRAVAUX ET CADRES",
-                    "TONGHOR",
-                    "TOUNDEUP REYA",
-                    "YOFF EXTENSION",
-                    "YOFF MBENGUENE",
-                    "YOFF RAND RAR",
-                    "CITE LONASE II"
-                 ]
-                },
-                {
-                  "name": "MERMOZ SACRE COEUR",
-                  "districts": [
-
-
-
-                    "AMITIE III",
-                    "BAOBAB",
-                    "CITE IBA NDIAYE DIADJ",
-                    "KARACK",
-                    "MERMOZ 1ere PORTE",
-                    "MERMOZ 2EME PORTE",
-                    "MERMOZ PYROTECHNIQUE",
-                    "SACRE CŒUR I",
-                    "SACRE CŒUR II",
-                    "SACRE CŒUR III PYROTECHNIQUE",
-                    "TERANGA",
-                    "FENETRE MERMOZ",
-                    "SACRE CŒUR III"
-          
-
-                  ]
-                }
-
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "THIES",
-      "departments": [
-        {
-          "name": "M’BOUR",
-          "arrondissements": [
-            {
-              "name": "JOAL FADHIOUTH",
-              "communes": [
-                {
-                  "name": "JOAL FADHIOUTH",
-                  "districts": [
-                    "NDIONGUENE (FADIOUTH)",
-                    "SANTHIE 3 (GARE ROUTIERE)",
-                    "DIONG",
-                    "NDOUBAB",
-                    "CITE LYCEE",
-                    "DAROU SALAM 1",
-                    "DAROU SALAM 2",
-                    "HAMDALLAH",
-                    "NGAZOBIL",
-                    "CARITAS",
-                    "FADIOUTH (DIOUME)",
-                    "SANTHIE 2 (IBOU FAYE)",
-                    "SANTHIE",
-                    "MBOUR DIOUKHAM",
-                    "OCEAN 1 ET 2",
-                    "AFDAYE DIAMAGUENE"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "MBOUR",
-              "communes": [
-                {
-                  "name": "MBOUR",
-                  "districts": [
-                    "THIOCE EST",
-                    "CHATEAU D'EAU NORD",
-                    "MBOUR TOUCOULEUR",
-                    "DIAMAGUENE 2 COMPLEMENTAIRE",
-                    "ESCALE",
-                    "MEDINE EXTENSION",
-                    "GRAND MBOUR 1",
-                    "CHATEAU D'EAU SUD",
-                    "LIBERTE 2",
-                    "DIAMAGUENE 2",
-                    "GOUYE MOURIDE 2",
-                    "SANTHIE 1",
-                    "TEFESS",
-                    "11 NOVEMBRE",
-                    "ZONE SONATEL",
-                    "GRAND MBOUR 2",
-                    "SONATEL EXTENSION",
-                    "DAROU SALAM",
-                    "MEDINE",
-                    "MBOUR MAURE",
-                    "SANTHIE 2",
-                    "GOLF",
-                    "SANTE YALLA",
-                    "MEDINE 2",
-                    "DIAMAGUENE 1",
-                    "LIBERTE 1",
-                    "TERROU MBALLING",
-                    "MBOUR SERERE SOUF",
-                    "MBOUR SERERE KAW",
-                    "LYCEE TECHNIQUE",
-                    "SANTESSOU",
-                    "DIAMAGUENE 3",
-                    "GOUYE MOURIDE 1",
-                    "THIOCE OUEST"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "SAINT-LOUIS",
-      "departments": [
-        {
-          "name": "DAGANA",
-          "arrondissements": [
-            {
-              "name": "DAGANA",
-              "communes": [
-                {
-                  "name": "DAGANA",
-                  "districts": [
-                    "SECTEUR V",
-                    "SECTEUR VII",
-                    "SECTEUR III",
-                    "SECTEUR XI",
-                    "SECTEUR IV",
-                    "SECTEUR X",
-                    "SECTEUR VI",
-                    "SECTEUR II",
-                    "SECTEUR VIII",
-                    "SECTEUR I",
-                    "SECTEUR IX"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "RICHARD TOLL",
-              "communes": [
-                {
-                  "name": "RICHARD TOLL",
-                  "districts": [
-                    "CAMPEMENT CIVIL",
-                    "NDIAW",
-                    "NOUROU",
-                    "YAKH SABAR",
-                    "KHOUMA WOLOF",
-                    "NDIANGUE",
-                    "THIABAKH",
-                    "NDOMBO ALARBA",
-                    "ESCALE",
-                    "GALLO MALICK",
-                    "GAE II"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "MBANE",
-              "communes": [
-                {
-                  "name": "MBANE",
-                  "districts": [
-                    "H2 BOUNAMA YELOUR",
-                    "H2 BELEL SADIEGUI 2",
-                    "H4 BAWEDJI DIARKA",
-                    "H2 ODALE PENDA YAYAKE",
-                    "BISNABE PENDA YAYAKE PEUL",
-                    "H1 SOWONABE KOUEL BALLANDE",
-                    "BISNABE BOKIDIWE",
-                    "H1 KALOME 1",
-                    "H4 MAR 2",
-                    "H4 KEUR CHEIKH ALARBA SOW",
-                    "H1 KEUR ABOU DIA",
-                    "H4 KEUR TALIBE SOW (BELELE GOUDEL)",
-                    "H3 KEUR SAMBA DINA SOW",
-                    "H1 BELI NDIATBE",
-                    "BISNABE BIRAM SOKONE",
-                    "H3BOLEDI LESSO",
-                    "BISNABE BOUTEYNI",
-                    "H2 LOUMBE DIADBE",
-                    "BISNABE DIAPOBE",
-                    "H1 BISNABE SAM MAODA",
-                    "H3 KEUR ALPHA SOW",
-                    "BALANDE",
-                    "BELEL NGUELOBA",
-                    "H2 KEUR GNELY THIENGUEL",
-                    "H2 KALOME 2",
-                    "H1 PAMPINABE",
-                    "H3 BELELLE SADIEGUI WORO MODERY",
-                    "BELEL SADIE"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "ZIGUINCHOR",
-      "departments": [
-        {
-          "name": "ZIGUINCHOR",
-          "arrondissements": [
-            {
-              "name": "NIAGUIS",
-              "communes": [
-                {
-                  "name": "ADEANE",
-                  "districts": [
-                    "BAINOUNCK",
-                    "H1 SANTASSOU",
-                    "KOUNDIOUNDOU",
-                    "H2 LAGOUA",
-                    "TAMBACOUMBA",
-                    "SINDONE",
-                    "BAGHAGHA",
-                    "H2 GONOUM",
-                    "DIAGNON",
-                    "BISSINE TENDA",
-                    "BISSINE ALBONDY"
-                  ]
-                },
-                {
-                  "name": "BOUTOUPA CAMARACOUNDA",
-                  "districts": [
-                    "H1 TOURECOUNDA de MAWA",
-                    "H1 TEMPS",
-                    "H11 TEMENTO",
-                    "H3 FANGHOT MANJAQUE",
-                    "H5 BAGAYA",
-                    "H1 EKEU",
-                    "H1 DRAMECOUNDA",
-                    "GUIDEL BAMBADINKA",
-                    "BARAKA PAKAO",
-                    "BOFFA",
-                    "H8 BADIONKOTO I",
-                    "MAWA",
-                    "H3 WASHINGTON",
-                    "H2 TRAWOUL",
-                    "H1 TRANQUILLE",
-                    "CAMARACOUNDA",
-                    "H2 TEMENTO",
-                    "H4 KAMPADA",
-                    "BOUROFAYE DIOLA",
-                    "H1 BOFFA (CAMP MILITAIRE)",
-                    "H1 TOURECOUNDA de BOUROFAYE BAINOUCK",
-                    "H5 KAKOUNOUM",
-                    "H2 YABONE (PIDOUR)",
-                    "BOUTOUPA",
-                    "H10 POUBOUL",
-                    "H3 KABANCANY",
-                    "H2 NIAFOULENE",
-                    "H2 NTABARANE",
-                    "H3 BOUNKILING",
-                    "BARAKA BOUNAO",
-                    "H3 SALMINGOU",
-                    "BINDIALOUM MANJACQUE",
-                    "H4 BOUCOTTE MANCAGNE",
-                    "LATY",
-                    "H1 BINDIALOUM",
-                    "MPACK BRIGADIER",
-                    "H1 BAMBADINKA",
-                    "BOUROFAYE BAINOUCK",
-                    "H1 LABYSSENTH"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "KAOLACK",
-      "departments": [
-        {
-          "name": "KAOLACK",
-          "arrondissements": [
-            {
-              "name": "KAOLACK",
-              "communes": [
-                {
-                  "name": "KAOLACK",
-                  "districts": [
-                    "SAM",
-                    "KASAVILLE",
-                    "DAROU SALAM DIAMAGUENE",
-                    "NIMZATT",
-                    "MEDINA BAYE",
-                    "BOUSTANE 1",
-                    "BONGRE",
-                    "DIALEGNE 2",
-                    "NDANGANE",
-                    "NDORONG SADAGA",
-                    "KOUNDAM",
-                    "NDORONG 1",
-                    "PARCELLES ASSAINIES",
-                    "KASNACK",
-                    "FASS RIDWANE",
-                    "BOUSTANE 2",
-                    "NGANE ALLASSANE",
-                    "TABAGOYE 2",
-                    "DAROU SALAM NDANGANE",
-                    "NDAR GOU NDAW",
-                    "ABATTOIRS",
-                    "DIAMAGUENE 2",
-                    "KABATOKI",
-                    "DAROU RIDWANE",
-                    "DIAMAGUENE EXTENTION",
-                    "SING SING",
-                    "SAMA MOUSSA",
-                    "MEDINA MBABA 1",
-                    "DIALEGNE 1",
-                    "THIOFFACK",
-                    "HLM SARA",
-                    "FASS CAMP DES GARDES",
-                    "LEONA ESCALE",
-                    "DIAMAGUENE 1",
-                    "TOUBA KAOLACK EXTENSION",
-                    "MEDINA MBABA 2",
-                    "TOUBA KAOLACK",
-                    "LEONA CENTRE",
-                    "GAWANE",
-                    "PEULGA",
-                    "SARA NDIOUGARY",
-                    "KEUR MALOUM",
-                    "NGANE SAER",
-                    "TABAGOYE",
-                    "LYNDIANE",
-                    "NGADE",
-                    "TABAYA (KASNACK NORD)"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "KAHONE",
-              "communes": [
-                {
-                  "name": "KAHONE",
-                  "districts": [
-                    "DAROU HABIBI",
-                    "FASS KAHONE",
-                    "DAMOU NGHAYE"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "TAMBACOUNDA",
-      "departments": [
-        {
-          "name": "BAKEL",
-          "arrondissements": [
-            {
-              "name": "BAKEL",
-              "communes": [
-                {
-                  "name": "BAKEL",
-                  "districts": [
-                    "GRIMPALE",
-                    "NDIAYEGA 1",
-                    "MODINKANE",
-                    "DARE SALAM",
-                    "HLM",
-                    "YAGUINE",
-                    "BAKEL COURA",
-                    "NDIAYEGA 3",
-                    "MONTAGNE",
-                    "NDIAYEGA 2"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "KENIEBA",
-              "communes": [
-                {
-                  "name": "GATHIARY",
-                  "districts": [
-                    "BOUNTOUNG LOGHO",
-                    "BOUNDOU DIOYE",
-                    "TAME",
-                    "H1 KOULDE SORY KANOUTE",
-                    "SABOUCIRE GATHIARY",
-                    "TAKOUTALA II (HEREMAKONO)",
-                    "H1 KHOULDE",
-                    "GATHIARY",
-                    "DEBOU FADILA",
-                    "DEBOU DIAOUBE",
-                    "DIYALA HAMADOU",
-                    "SANOUKHOL"
-                  ]
-                },
-                {
-                  "name": "MADINA FOULBE",
-                  "districts": [
-                    "SEKONDJI",
-                    "DIOMBALLOU",
-                    "DIOUBEBA",
-                    "KENIEBA",
-                    "LALI",
-                    "MADINA FOULBE",
-                    "H1 CARE",
-                    "H1 DINGUELOU",
-                    "KOBATO",
-                    "H2 GOUREL BANY",
-                    "DIOUBOYE TRONGA",
-                    "DALAOULE",
-                    "TOMBORO MADJI",
-                    "SAMBA YAYE",
-                    "KOBA SANSANGHOTO"
-                  ]
-                },
-                {
-                  "name": "SADATOU",
-                  "districts": [
-                    "DIAMBOURDALLA",
-                    "H3 SINDIAN KANKOU (HI SINDIAN KONKOU)",
-                    "DIYABOUGOU",
-                    "H1 TONKOUTOU",
-                    "H2 BOUNTOUMDIAN 2",
-                    "KAOUROU",
-                    "H3 WETHIE",
-                    "HEREMAKONO",
-                    "ELIMALO",
-                    "H1 SAMBOUKHOU",
-                    "BALLEDJI",
-                    "H2 SENO CARE",
-                    "DIYALLA BACARY"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "KOLDA",
-      "departments": [
-        {
-          "name": "KOLDA",
-          "arrondissements": [
-            {
-              "name": "KOLDA",
-              "communes": [
-                {
-                  "name": "KOLDA",
-                  "districts": [
-                    "GADAPARA",
-                    "ZONE LYCEE",
-                    "SINTHIANG TOUNTOUROU",
-                    "SIKILO CENTRE OUEST",
-                    "NDIOBENE",
-                    "SINTHIANG IDRISSA",
-                    "BANTANGUEL",
-                    "BEL AIR",
-                    "HILELE",
-                    "DOUMASSOU",
-                    "SARE MOUSSA",
-                    "BOUNA KANE",
-                    "SARE KEMO",
-                    "MEDINA",
-                    "SIKILO NORD"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "DIOULACOLON",
-              "communes": [
-                {
-                  "name": "DIOULACOLON",
-                  "districts": [
-                    "DIEBANG",
-                    "MISSIRAH BACODAYE (SARE DRAME)",
-                    "FARABA",
-                    "SARE DIOUBA",
-                    "H1 SINTHIANG SOUARE",
-                    "MARVATA DIOKE (BAYA FOULBE)",
-                    "MEDINA NAMO",
-                    "FASS DIAE",
-                    "DIOULAYEL",
-                    "DEMBEL WOURY KAMAKO",
-                    "DIOUFANA",
-                    "SARE DIANAMBE KANDE",
-                    "BODOYEL TALATA",
-                    "DIADOUDICOUNDA",
-                    "DIARABOUGOU (SARE NGOLA)",
-                    "MEDINA BOULY",
-                    "SARE COLY MBALLO",
-                    "DIOULACOLON",
-                    "DIALICOUNDA",
-                    "SARE DEMBA SY",
-                    "GUIRO YORO ALPHA",
-                    "KANKILING",
-                    "MISSIRAH SAMBA",
-                    "GUIRO YORO SALMANE",
-                    "SAM PATHE",
-                    "MANATO SAKOU (SINTHIANG KIMBA)",
-                    "GUIRO YORO MANDOU",
-                    "LINGUETO",
-                    "BANTANCOUTOUYEL",
-                    "DIANAH",
-                    "BODOYEL ABDOUL",
-                    "SARE ALFOUSSEYNI",
-                    "DAROU SALAM THIERNO",
-                    "DAIBATOU AMADOU KOSSY",
-                    "DIASSANE (SARE MAMADOU MAMA)"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "MATAM",
-      "departments": [
-        {
-          "name": "MATAM",
-          "arrondissements": [
-            {
-              "name": "MATAM",
-              "communes": [
-                {
-                  "name": "MATAM",
-                  "districts": [
-                    "DIAMEL",
-                    "TANTADJI",
-                    "GOUREL SERIGNE",
-                    "THIAYDE",
-                    "NAWEL",
-                    "GANDE"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "OUROSSOGUI",
-              "communes": [
-                {
-                  "name": "OUROSSOGUI",
-                  "districts": [
-                    "MODERNE I",
-                    "AINOUMADY II",
-                    "MANGO III",
-                    "MANGO I",
-                    "WINDE I",
-                    "MODERNE II",
-                    "AINOUMADY I",
-                    "MANGO II (DAROU SALAM)",
-                    "WINDE II",
-                    "MODERNE III"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "AGNAM CIVOL",
-              "communes": [
-                {
-                  "name": "AGNAM CIVOL",
-                  "districts": [
-                    "MBERLA BELE",
-                    "AGNAM GODO",
-                    "H2 DEBODJI I OURO ELHADJI DEMBA DIERY SOW",
-                    "H5 OURO MBARGO",
-                    "AGNAM TOULEL THIALE",
-                    "H6 MBEDA",
-                    "AGNAM LIDOUBE",
-                    "SYLLA WORGO",
-                    "AGNAM GOLY",
-                    "H7 OURO NGOUBEL",
-                    "H3 LOUMBY LESS DEBODJI (WOURO MAMADOU ALASSANE)",
-                    "H3 WOYNDOU BOTHIE",
-                    "SINTHIOU CIREMATOU",
-                    "NDIAFFANE SOROKOUM",
-                    "AGNAM CIVOL",
-                    "H2 BAGONDE YERO YABE",
-                    "KANGAL KARADJI",
-                    "H2 YILAM",
-                    "H4 BELLA",
-                    "AGNAM YEROYABE",
-                    "H1 EDIT",
-                    "H2 TOULDE",
-                    "NDIAFFANE BELLY THINDE",
-                    "SINTHIOU BOUMAKA",
-                    "H1 FETE DIABY",
-                    "H1 GOUREL MOUSSA GALLO SOW",
-                    "H1 NDOUSSADJI OURO SAMBA DJINDE",
-                    "AGNAM BALNABE",
-                    "H1 WORO THILOUKI",
-                    "AGNAM WOURO CIRE",
-                    "H2 GOUREL MOUSSA BA",
-                    "H4 LOUMBY LESS",
-                    "AGNAM THIODAYE"
-                  ]
-                },
-                {
-                  "name": "OREFONDE",
-                  "districts": [
-                    "ASNDE BALLA"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "FATICK",
-      "departments": [
-        {
-          "name": "FATICK",
-          "arrondissements": [
-            {
-              "name": "FATICK",
-              "communes": [
-                {
-                  "name": "FATICK",
-                  "districts": [
-                    "PEULGA",
-                    "LOGANDEME",
-                    "DAROU SALAM",
-                    "DARAL",
-                    "MBOUBANE",
-                    "NDIANDIAYE I",
-                    "NDIANDIAYE II",
-                    "NDOUCK",
-                    "POUKHAM",
-                    "ESCALE",
-                    "CROISEMENT TP"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "DIOFFIOR",
-              "communes": [
-                {
-                  "name": "DIOFFIOR",
-                  "districts": [
-                    "DIONGFA",
-                    "SINDIANEKA"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "NDIOP",
-              "communes": [
-                {
-                  "name": "DIAOULE",
-                  "districts": [
-                    "GALANGUE SERERE",
-                    "H1 MBESS SOUMBEL",
-                    "H8 KEUR NDENE BOP",
-                    "H1 FOUGHEME",
-                    "DIAOULE 3",
-                    "KEUR BISSICK",
-                    "H2 KEUR THIERNO DIALLO",
-                    "H1 THIENABA",
-                    "KEUR DIARNO",
-                    "KORA 2",
-                    "BOFA COP",
-                    "H1 PETHIAKA",
-                    "H3 NGALAGNE",
-                    "H4 NGALAGNE COKE",
-                    "H6 KEUR LAMINE SENE",
-                    "KHODJIL",
-                    "H7 KEUR MANDIOC",
-                    "H5 KEUR MOR GUEYE",
-                    "H1 KHODJIL BOUMACK",
-                    "H2 NDIORAKOUM",
-                    "KORA 3",
-                    "DIAMBEYE TIGA",
-                    "H6 KEUR DIEL DIOUF",
-                    "H5 KEUR MANDIAYE",
-                    "H3 BIRAME MACK",
-                    "H3 WOURO MBAYE",
-                    "H1 KEUR BIRAME PATHE",
-                    "H2 TOUCAR",
-                    "H7 KEUR BOCAR GUEYE",
-                    "DIAOULE 1 ET 4",
-                    "H1 FELANE COP",
-                    "GALANGUE PEULH",
-                    "H4 KEUR MALICK SARR",
-                    "DIAT MOURY",
-                    "FELANE (FELANE GOUMA)",
-                    "KORA 1",
-                    "H1 KEUR DIATTA"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "KAFFRINE",
-      "departments": [
-        {
-          "name": "KAFFRINE",
-          "arrondissements": [
-            {
-              "name": "KAFFRINE",
-              "communes": [
-                {
-                  "name": "KAFFRINE",
-                  "districts": [
-                    "DIAMAGUENE TP",
-                    "DIAMAGUENE NDIOBENE",
-                    "ESCALE OUEST/CITE MILLIONNAIRE",
-                    "PEYE",
-                    "DIAMAGUENE CENTRE",
-                    "ESCALE EST",
-                    "MEDINA BAYE",
-                    "MBAMBA",
-                    "KAFFRINE NORD",
-                    "KAFFRINE SUD"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "GNIBY",
-              "communes": [
-                {
-                  "name": "BOULEL",
-                  "districts": [
-                    "H1 KEUR SAMBA",
-                    "H4 ALOUKY KAHI",
-                    "HORE",
-                    "MBOUL PEULH",
-                    "H1 DIAYANE",
-                    "GOULOKOUM",
-                    "KOUYANDE KANDJI",
-                    "DIOUT NGUEL II",
-                    "H3 BAYE NDIAYE",
-                    "H1 NIETY GOUYE",
-                    "KOUYANDE NDIAYE",
-                    "ALOUKY (TERRES NEUVES) ET ALOUKY SY",
-                    "DIOUT NGEUL I",
-                    "MEDINA KEBE",
-                    "H2 MBETHIE PEULH",
-                    "H1 GALOLY  PEULH",
-                    "DIAKHAO SALOUM",
-                    "H6 NELBEL SERERE",
-                    "H5 DAROU KARIM",
-                    "HI KEUR ELHADJI SAMBA SOW",
-                    "LAHI",
-                    "H1 MIDIO",
-                    "H3 KOUYANDE TEOUROU",
-                    "H1 KAYE NIALBE",
-                    "H1 KAKARE",
-                    "H1 NGASSAMA SERERE",
-                    "H7 DAROU DIOP",
-                    "KHENDE",
-                    "H3 TAÏF THISSE",
-                    "DAROU SALAM III",
-                    "H2 NDIABAYENE",
-                    "H1 TEOUROU",
-                    "H2 FORET",
-                    "H2 MBATHIERE",
-                    "FASS GOULAKOUM",
-                    "H2 NELBEL",
-                    "BOULEL GOUMACK",
-                    "H1 DIABA (DIABO)",
-                    "H1 BOURLEYE LANEL",
-                    "LANEL (LANENE)"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "KEDOUGOU",
-      "departments": [
-        {
-          "name": "KEDOUGOU",
-          "arrondissements": [
-            {
-              "name": "KEDOUGOU",
-              "communes": [
-                {
-                  "name": "KEDOUGOU",
-                  "districts": [
-                    "DINGUESSOU (PASTEUR BUTLER)",
-                    "MOSQUEE",
-                    "NDIORMI (GADA DINGUESSOU)",
-                    "DALABA",
-                    "FADIGA",
-                    "MEDINA KEGNETO",
-                    "DANDEMAYO",
-                    "GOMBA (TRIPANO)",
-                    "KEGNETO PEULH",
-                    "TOGORO"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "BANDAFASSI",
-              "communes": [
-                {
-                  "name": "BANDAFASSI",
-                  "districts": [
-                    "H6 SINTHIOU SITELLY",
-                    "BANDAFASSI TANDA",
-                    "ITATO",
-                    "H2 SANTAKHO",
-                    "H4 MERESSI",
-                    "LANDIENY TANDA",
-                    "SINTHIOU ROUDJI",
-                    "H3 SILING",
-                    "BANDAFASSI PEULH",
-                    "H3 SILLY PEULH",
-                    "LAMINIA",
-                    "LANDE BAITYL",
-                    "PATASSY",
-                    "H2 SILLY BASSARI",
-                    "THIOKETHIAN",
-                    "H1 TAKOUROU",
-                    "THIABEDJI",
-                    "SAMECOUTA",
-                    "H1 GUINGARA",
-                    "LANDIENI PEULH",
-                    "H2 THIANKOU MALAL",
-                    "HABIBOU",
-                    "NIANGHE",
-                    "H1 CARRIERE",
-                    "H1 NATHIA",
-                    "BAITILAYE",
-                    "H2 CARREFOUR NDIAYE PRAYA",
-                    "H2 NIANGHE BASSARI",
-                    "BADEMBAN (IWOL)",
-                    "IBEL",
-                    "BOUNDOUCONDI",
-                    "H1 INDAR",
-                    "SYLLACOUNDA DIAKHA",
-                    "H1 TAIFA",
-                    "H1 DOUTADING",
-                    "H2 DAMBOUKOYE",
-                    "H1 MAREWA",
-                    "SYLLACOUNDA PEULH",
-                    "DAR SALAM 1",
-                    "DIENDJI DIAKHA"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "SEDHIOU",
-      "departments": [
-        {
-          "name": "SEDHIOU",
-          "arrondissements": [
-            {
-              "name": "SEDHIOU",
-              "communes": [
-                {
-                  "name": "SEDHIOU",
-                  "districts": [
-                    "GOUDIABYA",
-                    "MORICOUNDA",
-                    "JULESCOUNDA",
-                    "DEMBAYA",
-                    "KABEUMB",
-                    "MANSACOUNDA",
-                    "MONTAGNE ROUGE",
-                    "SANTASSOU I",
-                    "SANTASSOU III",
-                    "SANTASSOU II"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "MARSASSOUM",
-              "communes": [
-                {
-                  "name": "MARSASSOUM",
-                  "districts": [
-                    "TAIBA",
-                    "SOURWACOUNDA",
-                    "GRAND DAKAR",
-                    "ESCALE",
-                    "TORONCOCOUNDA",
-                    "BELALY",
-                    "KANKABA",
-                    "MANGUIR"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "DIENDE",
-              "communes": [
-                {
-                  "name": "DIENDE",
-                  "districts": [
-                    "BISSARI (DIOUNKOYA)",
-                    "SALIKEGNE SOUCOUTOTO",
-                    "H2 SINTHIANG KORKA",
-                    "KOUNAYAN MANDING",
-                    "BAKOUM MANDINGUE",
-                    "DIENDE",
-                    "H3 SINTHIANG YORO SANE",
-                    "IDA",
-                    "BADIANDIAN MANCAGNE",
-                    "KOUNAYAN MANCAGNE",
-                    "SITABA",
-                    "SALIKEGNE",
-                    "DIATOUMA MANDINGUE",
-                    "DJIDATOU EL HADJ KHALIFA",
-                    "MADINA FINDIFETO",
-                    "BAKOUM MANCAGNE",
-                    "DIATOUMA REFUGIE",
-                    "H2 TAMBACOURA",
-                    "H1 BADIANDIAN SOUCOTOTO",
-                    "TOURECOUNDA",
-                    "H2 SIDOUYA (NGALPANTE)",
-                    "BLOC STATION",
-                    "BOUSSOURA ELHADJI KARAMBA",
-                    "BADIANDIAN DIOLA",
-                    "MADINA UC I",
-                    "H4 BISSARI (DIOUNKOUYA)",
-                    "H1 KOUNAYAN MANCAGNE",
-                    "AYNOUSSALAM",
-                    "H1 SINTHIANG IBRAHIMA",
-                    "KOUNAYAN DIOLA",
-                    "SEFA",
-                    "H3 DIENDE 2"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "LOUGA",
-      "departments": [
-        {
-          "name": "KEBEMER",
-          "arrondissements": [
-            {
-              "name": "KEBEMER",
-              "communes": [
-                {
-                  "name": "KEBEMER",
-                  "districts": [
-                    "GALLA",
-                    "GALLA DAROU SALAM",
-                    "NDIABY FALL",
-                    "MBABOU",
-                    "ESCALE",
-                    "NDAKHAR",
-                    "MEDINA",
-                    "MBASSINE",
-                    "DIAMAGUENE"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "DAROU MOUHTY",
-              "communes": [
-                {
-                  "name": "DAROU MARNANE",
-                  "districts": [
-                    "KEUR MASSAMBA KHARY",
-                    "DEKHEULE",
-                    "NGUEMBE PEULH",
-                    "KHATARANE",
-                    "KALOM",
-                    "KIR SAMB",
-                    "DEKHOLE MBEYE PEULH",
-                    "H1 DEKHEULE PEULH",
-                    "H1 KEUR SAMBA ARAME PEULH",
-                    "KEUR MATAR DIOP DE SAGATTA GUETH",
-                    "DAROU DIOP",
-                    "H1 BIBE",
-                    "MBERBOKHO",
-                    "GUELLE 2",
-                    "H1 LEUDEUM(MERINA DIOP)",
-                    "KEUR MATAR BINTA OUOLOF",
-                    "DAROU FASS",
-                    "FASS PEULH",
-                    "H2 YALLENE",
-                    "BAYTI  MBERY BEYE",
-                    "DEKHOLE GUET",
-                    "BAYTI NGUERA 1",
-                    "GUELLE 1",
-                    "H1 DAROU KHOUDOSS FETO",
-                    "KOKI KADE",
-                    "KEUR MATAR BINTA PEULH",
-                    "H2 DAROU MARNANE FETO",
-                    "FASS TOURE",
-                    "NDJINGUENE PEULH",
-                    "DAROU MARNANE",
-                    "BABA LO",
-                    "BEUBEUNE (BOUBOULE)",
-                    "H1 SACOLY",
-                    "MERINA DIOP (KEUR BIRA GUEYE)",
-                    "NGUER FACK 1",
-                    "NGUER FACK 2",
-                    "H1 BOUBOU BA",
-                    "NDEMBOLOGNE",
-                    "KOKI DAKHAR",
-                    "NDJINGUENE WOLOF",
-                    "MBARY WOROM"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "DIOURBEL",
       "departments": [
         {
-          "name": "BAMBEY",
+          "name": "M’BACKE",
           "arrondissements": [
             {
-              "name": "BAMBEY",
+              "name": "MBACKE",
               "communes": [
                 {
-                  "name": "BAMBEY",
+                  "name": "MBACKE",
                   "districts": [
-                    "KEUR SAKOURA BADIANE",
-                    "KAYENNE KEUR MASSE",
-                    "WAKHALDIAM NORD",
-                    "DVF OUEST",
-                    "DVF CENTRE",
-                    "LEONA NORD",
-                    "ESCALE",
-                    "LEONA SUD",
-                    "WAKHALDIAM SUD",
-                    "DVF EST"
+                    "DAROU SALAM",
+                    "MBACKE KHEWAR",
+                    "MBACKE MOURIDE",
+                    "MBACKE NDIMBE (MBACKE)",
+                    "NDOYENE",
+                    "PALENE (MBACKE BARRY)"
                   ]
                 }
               ]
             },
             {
-              "name": "BABA GARAGE",
+              "name": "KAEL",
               "communes": [
                 {
-                  "name": "BABA GARAGE",
+                  "name": "DENDEYE GOUY GUI",
                   "districts": [
-                    "KEUR OUSMANE KANE",
-                    "GNICK",
-                    "H2 DAROU CISS",
-                    "H1 FASS",
-                    "KEUR MAKHOUDIA",
-                    "KADE",
-                    "KEUR GORA NDIAYE",
-                    "MEOUNDOU KANE",
-                    "NDARY PALENE",
-                    "H1 MBARRO",
-                    "LOYENE",
-                    "BABA GARAGE",
-                    "KEUR MOUSSE SIR",
-                    "NDARY DIOP",
-                    "H1 KEUR NDIARNDE",
-                    "LAMSAR",
-                    "BAITY KANE",
-                    "KHAYE NDIAYE",
-                    "KAIRE MALICK",
-                    "KEUR SAMBA YACINE (TAIBA)",
-                    "KEWRE",
-                    "KEUR MASSAMBA NDOUMBE",
-                    "H1 KEUR DIERY",
-                    "NDIABY",
-                    "NDIECKINANE",
-                    "KEUR MACOUMBA",
-                    "MACKA DIOKHANE",
-                    "NDIAWAGNE",
-                    "MERINA KANE",
-                    "H2 MBALENE",
-                    "H1 PALENE",
-                    "KEUR ASSANE KANE",
-                    "DAROU BAKHOUM",
-                    "DAROU DIOP 1",
-                    "NDIAGNE SITOR",
-                    "H1 MBADJIE KADE",
-                    "NDARY GADE",
-                    "NDIARNO NDIOBEL",
-                    "MBAKHE",
-                    "DAROU NGUER"
+                    "BATHIE ROYE",
+                    "DENDEYE ESCALE",
+                    "DENDEYE 2 WOLOF",
+                    "DENDEYE PEULH",
+                    "GOUYE GUI",
+                    "H1 BELELE MBABA",
+                    "H2 BERE",
+                    "H3 KEUR MOR SARR",
+                    "H4 KEUR BANDJIRY KA",
+                    "KELEL CONTOR",
+                    "H2 KEUR ALIOU KA",
+                    "KEUR CHEIKH DIOP",
+                    "KEUR MABALY SENE",
+                    "KEUR MAR BOYE",
+                    "KEUR MAR NDIAYE",
+                    "KEUR SOULEYE DIAGNE",
+                    "H1 KEUR DJIBY YADE",
+                    "KEUR YORO NDIAYE",
+                    "NDIAMBOUL",
+                    "NDIAWALDY 1",
+                    "NDIAWALDY 2",
+                    "H1 KEUR MALICK",
+                    "NDIOLOFFENE",
+                    "NGUERANE",
+                    "NIANGHENE",
+                    "OURO DIOUMA DIADJI",
+                    "OURO DIOUMA MBISSANE",
+                    "OUROUR NDIAWALDY",
+                    "PADE",
+                    "SAME CONTOR",
+                    "H1 DAROU NDIAYE KEUR MOR THIAMA",
+                    "H2 MBODIENE SOUF",
+                    "H3 MBODIENE KAO",
+                    "H3 KEUR ATIM",
+                    "TOUBA NGOUNDIOURA",
+                    "WEYNDOULERY"
+                  ]
+                },
+                {
+                  "name": "DAROU SALAM TYP",
+                  "districts": [
+                    "BOUSTANE MBACKE",
+                    "H2 KEUR MODOU KAMA",
+                    "DAROU GUEYE",
+                    "H2 GANDE ET GANA NIANG",
+                    "H3 KEUR AMATH KA",
+                    "H5 KEUR MBAYE NIANG",
+                    "DAROU MARNANE",
+                    "H2 TAWFEKH DAROU MARNANE",
+                    "DAROU SALAM TYP",
+                    "H1 DAARA MOUNTAKHA BASSIROU MBACKE",
+                    "H2 MBELOGNE GALLELE 1 ET 2",
+                    "H3 TEWEL",
+                    "H4 KEUR AMADOU BOSSO KA",
+                    "H5 KEUR MBAYE FALL TINE",
+                    "H6 MBOFY",
+                    "NASROU KEUR DIOMBO (NDOURENE)",
+                    "H1 KEUR BASSIROU NIANG",
+                    "H2 KEUR SOUDOU PELOKH DIOME",
+                    "NASROU MBACKE",
+                    "H1 MEDINA SALAM",
+                    "TAWFEKH KHAYGA",
+                    "H2 KEUR SAMBA FAYE",
+                    "H3 KEUR SAMBA MBAYE",
+                    "H4 NGUINDE",
+                    "H5 KEUR DIAB DIOME",
+                    "TEWEL (KEUR MASSEYE)"
+                  ]
+                },
+                {
+                  "name": "KAEL",
+                  "districts": [
+                    "AFFE KAEL",
+                    "CONTOR",
+                    "H1 HAMED NGIWEL",
+                    "CONTOR 2 (NGUESS BOGEL)",
+                    "DAROU GUEYE",
+                    "DAROU MBAYENE",
+                    "DAROU SALAM KAEL",
+                    "DAROU WAHAB",
+                    "DIABY (BOULEL)",
+                    "DIROYE 1",
+                    "DIROYE 2",
+                    "FASS KAEL",
+                    "H1 KEUR DIAM BOULO",
+                    "GOUBE 1",
+                    "GOUBE 2",
+                    "LALOYE FONDE 1",
+                    "H1 MBAMBADO",
+                    "LALOYE FONDE 2",
+                    "H1 BELELE DIABE",
+                    "LAMA 1",
+                    "H1 KEUR SEYDOU BA",
+                    "H2 THIOGO",
+                    "LAMA 2",
+                    "H1 HAMET (KEUR SERIGNE BA)",
+                    "MAGOUMBA NDAO",
+                    "MAKA KAEL",
+                    "H2 BOKI TOKI",
+                    "H3 DAARA SERIGNE CHEIKH MBACKE",
+                    "H4 FORAGE LAMA",
+                    "H5 LANDAGOL",
+                    "H6 NDINDE",
+                    "H7 THIEWA",
+                    "MBAGNE SEO",
+                    "MBANAMY 1",
+                    "H1 GOUNODE",
+                    "MBANAMY 2",
+                    "H2 KANDYSSADA",
+                    "MBANDY PEULH",
+                    "NDAM KAEL",
+                    "H1 BOUNDOU BIRASSI",
+                    "NGASSAMA",
+                    "H1 NDEMENE",
+                    "NIOL NGUEL",
+                    "SAMTHIALLE",
+                    "THIENENE",
+                    "TOUBA DABEL",
+                    "TOUBA KAEL",
+                    "H2 DIAMWELLY",
+                    "H3 THIAMENE",
+                    "H4 NDIA",
+                    "TOUBA KAEL PEULH",
+                    "TYPE SAMBA"
+                  ]
+                },
+                {
+                  "name": "MADINA",
+                  "districts": [
+                    "BOBY KANDJI",
+                    "BOBY MBACKE",
+                    "BOURSAKH",
+                    "DAROU NAHIM",
+                    "DIOUROUL",
+                    "H1 KEUR SADIBOU KA",
+                    "GADIEDJI PEULH",
+                    "GADIEDJI OUOLOF",
+                    "GRINIEL",
+                    "MADINA",
+                    "H3 KADOUYEL 1",
+                    "H4 DAROU RAHMANE",
+                    "H5 RASS OUOLOF ET RASS PEULH",
+                    "H6 KADOUYEL 2",
+                    "H7 BELELE OGO",
+                    "H9 DAGANABE 1",
+                    "H10 DAGANABE 2",
+                    "H11 LEYENE",
+                    "H12 SOPADE",
+                    "MBAYENE",
+                    "H1 KEUR YORO BA",
+                    "H2 NIBANE ET BANE",
+                    "NDOCK",
+                    "H2 KEUR SERIGNE CHEIKH MBACKE",
+                    "H3 KEUR SERIGNE MBACKE ASTOU",
+                    "NGASSAMA",
+                    "TAW FEKH (DAROU MARNANE)",
+                    "THIENGOU",
+                    "TOUBA YONGO",
+                    "TOUNE MBARANY",
+                    "TYPNAR",
+                    "H1 MBELOGNE SAMBA LOUMBEL"
+                  ]
+                },
+                {
+                  "name": "NDIOUMANE",
+                  "districts": [
+                    "BAITY GUEYE",
+                    "H1 KEUR MODOU MODOU POUYE",
+                    "BOUSTANE DIAO (DIAWE)",
+                    "DAROU NAHIM DIA",
+                    "H1 DEPPE DE TAINABE",
+                    "H3 KEUR NGOR",
+                    "DIOKANE",
+                    "H1 KEUR NGOUYE SENE",
+                    "H3 KEUR LIBASSE GNINGUE",
+                    "DOYOLY 2",
+                    "H1 KEUR SOUDOU FALL (THIERERE FALL)",
+                    "H3 KEUR ABLAYE NDIAYE",
+                    "GAPASSE",
+                    "GOUYE NDIAYE",
+                    "GOWE",
+                    "H1 GOWE KEUR DALY NDIAYE",
+                    "GUERALE 1",
+                    "H1 NDIOUMANE PEULH",
+                    "H2 SAFOUTE POUYE",
+                    "H3 KEUR SADIOU KA SALL",
+                    "KEUR MADJIEUMBA LO",
+                    "KOFFA",
+                    "LOUMBEL NDOULO",
+                    "H1 KEUR AMADOU BASS",
+                    "MBACKE MBAYARD",
+                    "MBAME PEULH",
+                    "NDIOUMANE",
+                    "H1 KEUR GORY KA (NDIOUMANE PEULH)",
+                    "H2 LAGAMBAL",
+                    "H3 NDIOUMANE KEUR CHEIKH FATY",
+                    "H5 DAARA SERIGNE SALIOU MBACKE",
+                    "H6 KEUR WOULA FAYE",
+                    "H7 NDIOUMANE SERERE",
+                    "H8 DEGUE AISSA",
+                    "H9 KEUR BASS TINE",
+                    "H10 KEUR SALIOU DIAGNE",
+                    "H11 KEUR MOR GUEYE NIANG",
+                    "NGUIDIANE NDIAYE",
+                    "H1 DAARA NGUIOUMANE",
+                    "H2 GUERAL 2 (KEUR NDIANE POUYE)",
+                    "NGUIDIANE SALL",
+                    "YADOU KAEL (KEUR NGAGNE DIAGNE)"
+                  ]
+                },
+                {
+                  "name": "TOUBA MBOUL",
+                  "districts": [
+                    "DIAWE SERERE",
+                    "H1 KEUR ALASSANE DIABAYE",
+                    "H2 KEUR NGOR SENE",
+                    "H3 KEUR DALY FAYE",
+                    "H5 KEUR AMATH DIOUF",
+                    "KAMADOU",
+                    "H2 KEUR WALY NDIAYE",
+                    "H3 KEUR NGOR TINE",
+                    "H4 KEUR BIRAME NGOM",
+                    "H5 KEUR NDIOUGA DIAGNE",
+                    "H6 KEUR MBAGNICK NDAO",
+                    "KELEWE TEW SERERE",
+                    "H1 KEUR NGAYO SECK",
+                    "H2 BARKEYEL",
+                    "H3 KEUR FAPP POUYE",
+                    "H4 KEUR SAMBA NGOM",
+                    "H5 KELEWTEW",
+                    "KEUR MADIOP SERERE",
+                    "LAGANE MBACKE",
+                    "H2 DARA LAGANE MBACKE",
+                    "H3 KEUR SAMBA NIANG",
+                    "LAGANE PEULH",
+                    "MBOBENE",
+                    "H1 KEUR BALLA MBOULE KA",
+                    "H2 KEUR MOUSTAPHA WELLE",
+                    "MBOUL KAEL",
+                    "H1 MBOUL LAPPY",
+                    "MERINA SARR",
+                    "H1 KEUR MAMADOU DIALLO",
+                    "H2 KEUR IBRA NGOM",
+                    "H2 KEUR NGOR FAYE",
+                    "NDIAWRE COUTA",
+                    "NDOCKA OUOLOF 1",
+                    "NDOCKA OUOLOF 2",
+                    "NDOCKA PEULH",
+                    "H1 NDAKH NDIAYE",
+                    "NDOYENE",
+                    "NOUKOUYEL",
+                    "H1 KEUR SEYDOU DIONE",
+                    "PATHIEM PEULH",
+                    "H1 PATHIEM II (GAOUROU)",
+                    "PATHIEM YEL",
+                    "H3 KOUTOURFA",
+                    "H4 KEUR MAMADOU SOW",
+                    "SEO TOURE",
+                    "H1 SEO SERERE",
+                    "H2 KEUR DJIBY SENE",
+                    "H4 DIOYE",
+                    "TEOUROU KOSSAM (KEUR MBASSIROU NDIAYE)",
+                    "H2 NDOURENE",
+                    "TOUBA MBOUL",
+                    "H3 SADJI",
+                    "H4 BARKEYEL",
+                    "H6 KEUR ADIOUMA DIOUF",
+                    "H7 KEUR ELHADJI TINE (TEOUROU MBACKE TINE)",
+                    "H8 KEUR SERIGNE ALIOU NGOM",
+                    "H9 KEUR SOUDOU FAYE",
+                    "KEUR GOUAROU (MBOUL SERERE)"
+                  ]
+                },
+                {
+                  "name": "DAROU NAHIM",
+                  "districts": [
+                    "DAROU MBACKE",
+                    "H1 DARADJI",
+                    "DAROU NAHIM",
+                    "H1 BOUTIKI",
+                    "H2 MBELLA",
+                    "H3 DIAYLA SOW",
+                    "H4 LOUMENE",
+                    "GOWANE FAYE",
+                    "H1 KEUR MACOUMBA NGOM",
+                    "H4 KEUR SADY SOW",
+                    "KEUR MAFARY NDIAYE",
+                    "KEUR SIDATE",
+                    "LODOYE",
+                    "MBABARY",
+                    "NDIAYENE",
+                    "NDIOBENE",
+                    "NDIOL",
+                    "NDIOPAME PEULH",
+                    "NGASSAMA",
+                    "THIALAGA",
+                    "THIALLE",
+                    "H1 KEUR ARONA BA",
+                    "H2 NDIA",
+                    "THIECKENE",
+                    "TOUBA KANE (NDIOPANE WOLOF)",
+                    "H1 GOWANE PEULH (KEUR GORGUI)"
+                  ]
+                },
+                {
+                  "name": "TAIBA THIEKENE",
+                  "districts": [
+                    "GORETTE",
+                    "LOUMBEUL SAYE SERERE",
+                    "H1 BOUBOUL",
+                    "LOUMBEUL SAYE WOLOF",
+                    "H1 GAWANE SERERE",
+                    "H2 KEUR DJIBANE POUYE",
+                    "NDIAMA",
+                    "TAIBA THIAREME",
+                    "TAIBA THIECKENE",
+                    "H1 TAIBA GOUYE",
+                    "H2 GAWANE NDIAMA",
+                    "H3 GOWANE PEULH",
+                    "H4 MBAPPE",
+                    "H5 MOURE",
+                    "TAINABE",
+                    "H1 DJIGOBE",
+                    "H2 KEUR IDY DIAKOU KA",
+                    "H3 KEUR MBEGANE NDOUR",
+                    "H4 NGUETTE",
+                    "TOUBA LOUMBEL (COUMBEL WOLOF)"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NDAME",
+              "communes": [
+                {
+                  "name": "DALLA NGABOU",
+                  "districts": [
+                    "BAITY DIA",
+                    "BAITY MADIA GUEYE",
+                    "BAITY NDIAYE",
+                    "BAITY PALENE",
+                    "BANANE",
+                    "H1 BANANE TEUGUE",
+                    "H2 KEUR BIRAME DIOUF",
+                    "H3 KEUR LAT SARR",
+                    "H4 KEUR ALY KANE",
+                    "DAGA DIOUF 1",
+                    "DAGA DIOUF 2",
+                    "DALLA OUOLOF",
+                    "DALLA PEULH 1",
+                    "H1 DAGA NDIAYE",
+                    "H2 NDIAGNE",
+                    "DALLA PEULH 2",
+                    "DAROU KHAFFOR",
+                    "DAROU KHOUDOSS 3",
+                    "H1 KIPDALL",
+                    "DAROU MBACKE",
+                    "DIGANE",
+                    "DOUYE SANGOU",
+                    "FINTEL SERERE",
+                    "GOUYE NGUENE OUOLOF",
+                    "H1 DARAAY GOUYE NGUENE",
+                    "GOUYE NGUENE PEULH",
+                    "KHOUROU MBACKE",
+                    "LAH",
+                    "NDAKHAR",
+                    "NGABOU 1",
+                    "H1 KEUR SENGAR DIOUF",
+                    "H2 KHAYE NDIAYE",
+                    "NGABOU 2 (DAROU LO)",
+                    "NGABOU 3",
+                    "NGABOU 4",
+                    "NGABOU SANKHAYE",
+                    "SATTE",
+                    "TAINABE",
+                    "TAWA FALL",
+                    "THIENTHIE 2",
+                    "THIENTHIE 3",
+                    "H1 KEUR MOR ASSE",
+                    "THIENTHIE 4",
+                    "THIEP DALLA",
+                    "THIEYE PEULH",
+                    "THIOMBE",
+                    "TOUBA DALLA",
+                    "NGUEYENE NDAME"
+                  ]
+                },
+                {
+                  "name": "MISSIRAH",
+                  "districts": [
+                    "DIAMWELY 2",
+                    "DIOREL",
+                    "GOLY NDIAYE",
+                    "KEUR MACOUMBA NDIONE",
+                    "H1 KEUR OGO KA",
+                    "H2 KEUR MBAYE DIAGNE",
+                    "KHAMNANE",
+                    "H1 LOUMENE",
+                    "KHEWAR MISSIRAH",
+                    "H1 KEUR DEMBA GUEYE",
+                    "H2 THIARGHE ET KARLOL",
+                    "H3 KEUR NDIAGA GUEYE",
+                    "H4  BAKAR NDIAYE",
+                    "H5 KEUR SALIOU GUEYE",
+                    "KOBA",
+                    "LAOUNIANDE",
+                    "H1 KEUR NIOKHOR SENE",
+                    "LOUGOUL",
+                    "H1 DAARA HAMDY KHADY FALL",
+                    "H2 KEUR ARONA BA",
+                    "H3 TAWFEKH",
+                    "H4 DAARA CHEIKH KHADY",
+                    "MBARANE DIENG",
+                    "MBARANE THIAM",
+                    "H1 THIARENE SARR",
+                    "MBAYENE MISSIRAH",
+                    "MISSIRAH",
+                    "H1 KEUR OMAR KANDADE KA",
+                    "H2 THIOUMP",
+                    "H3 KEUR MANAR",
+                    "H4 BEYE OUOLOF ET BEYE PEULH",
+                    "NDAME LO",
+                    "NDIOUMENE",
+                    "TAIBA",
+                    "THIASKY",
+                    "H1 KEUR GANE",
+                    "H2 SAMBE",
+                    "H4 NDIOUFENE",
+                    "THYSSE 2",
+                    "YASSY MISSIRAH"
+                  ]
+                },
+                {
+                  "name": "NGHAYE",
+                  "districts": [
+                    "BELELE",
+                    "H1 KEUR ELHADJ KA",
+                    "H2 KEUR OUMAR FALL",
+                    "DAROU KHOUDOSS 2",
+                    "H1 NDIOKANE",
+                    "H2 TEWROU",
+                    "H3 YAWARA",
+                    "DAROU NDIAYE",
+                    "GANDIOLE",
+                    "GROTTE 2",
+                    "GUEDJIALY 1",
+                    "H1 KEURY SOUF",
+                    "GUEDJIALY 2",
+                    "KEUR SAMBA NDIAYE NIANG",
+                    "MBARENE",
+                    "H1 BABOU",
+                    "MBILLY",
+                    "MBOUCKY",
+                    "NDEUNEUKH",
+                    "H1 NIANKHENE",
+                    "NDIA GUEMB",
+                    "H1 NDIA KEUR MADIEYE",
+                    "H2 NDIOBENE NDIMB",
+                    "NDIATHIAKHO",
+                    "NGHAYE",
+                    "H1 DAROU NDIAYE",
+                    "H2 KEUR LATYR FAYE",
+                    "NGONGO",
+                    "H1 GAISSIR",
+                    "NGUEYENE",
+                    "NIAKHENE",
+                    "THIANGHA",
+                    "THIENTHIE 1",
+                    "H1 KEUR GALLO",
+                    "YASSY",
+                    "YERI",
+                    "H1 MBALKHASSE"
+                  ]
+                },
+                {
+                  "name": "TOUBA FALL",
+                  "districts": [
+                    "BAITY DIMB",
+                    "BAYE NDIAYE",
+                    "DAROU RAHIM 1",
+                    "DAROU RAHIM 2",
+                    "DAROU RAHMANE",
+                    "H1 KEUR SAGAR KA",
+                    "DIAMWELY 1",
+                    "H1 KIRE",
+                    "H2 SOUYTA",
+                    "GORETTE 1",
+                    "GUEBE 1",
+                    "GUEBE 2",
+                    "H1 BARIKEL",
+                    "GUELE 2",
+                    "GUELE TENE",
+                    "KAWSARA",
+                    "H1 KEUR SOUDOU DIAGNE (KAWSARA SERERE)",
+                    "H2 KEUR MALICK FAYE",
+                    "H3 DABAYE ET NGUEMBE",
+                    "KEUR MATAR BA",
+                    "KOLONABE",
+                    "MBAME PEULH 1",
+                    "MBAME PEULH 2",
+                    "MEDINA TOURE",
+                    "H1 NDIEYENE WODIA",
+                    "OUROUR",
+                    "SAM SAM",
+                    "TAWA FALL",
+                    "TOUBA FALL 1",
+                    "TOUBA FALL 2",
+                    "H2 BELEL",
+                    "H3 KEUR ADAMA SAMB ET KEUR MAME NDIAYE",
+                    "TOUBA NDIAWADY",
+                    "YOLLY"
+                  ]
+                },
+                {
+                  "name": "TOUBA MOSQUEE",
+                  "districts": [
+                    "AFFE",
+                    "H1 AFFE SANTHIE (AFFE KHOUR)",
+                    "ALIA",
+                    "TOUBA BAGDAD",
+                    "BACOURA",
+                    "H1 RIP GAYE",
+                    "H2 GOUYE MBAME",
+                    "H4 KODIDE",
+                    "BANGATHIE 1",
+                    "BANGATHIE 2",
+                    "MBAPE",
+                    "BELEL NAYE",
+                    "BODE 1",
+                    "H1 KEUR SOULEYE BA",
+                    "BODE 2 (KELEL DIENG)",
+                    "H1 KELEL PEULH",
+                    "BOFFEL TOUBA OIL",
+                    "BOUKHATOUL MOUBARACK",
+                    "BOUSTANOUL ARIFINA",
+                    "DAROU KARIM",
+                    "DAROU KHADIM",
+                    "DAROU KHALIMOUL KHABIR",
+                    "DAROU KHOUDOSS",
+                    "H1 BALLA NDIAYE",
+                    "DAROU MARNANE",
+                    "DAROU MINAM",
+                    "DAROU NAHIM",
+                    "DAROU RAHMANE",
+                    "H1 KEUR SERIGNE HABIB",
+                    "DAROU RAHMANE (SANTHIE)",
+                    "DAROU RAHMANE 1",
+                    "DAROU SALAM NDAME",
+                    "DIAKHAYE",
+                    "DIALAKHAR",
+                    "H1 MBAYENE",
+                    "H2 DAROU DIOP",
+                    "H3 DEMBA WOUNTOU",
+                    "DIANATOUL MAHWA",
+                    "GOUYE MBIND",
+                    "GOUYE NABE",
+                    "GUEDE BOUSSO",
+                    "H1 LAMBY GADIO",
+                    "H2 NDAR KHAKHAME",
+                    "KANKA (DEUK BOU REY)",
+                    "KELELE DIOP (KELELE OUOLOF)",
+                    "H1 KEUR HOGGO SOW",
+                    "H2 NAIDE",
+                    "KERE MBAYE",
+                    "H1 MACOUMBA DIABY",
+                    "H2 POFDY PEULH",
+                    "H3 TOUBA DIADEL",
+                    "KERE NDIAGA NDAO",
+                    "H2 THYSSE",
+                    "KEUR MACOUMBA KEBE (KEUR KABE)",
+                    "KEUR NIANG",
+                    "KEUR NIANG EXTENSION",
+                    "KHAIRA",
+                    "TOUBA MADIYANA",
+                    "MAYE LANDANG",
+                    "H1 BOWEL",
+                    "H2 THIERERE",
+                    "MERINA DIOP (MBOULOUGNE)",
+                    "MBOUSSOBE (DIANATOU FIRDAWSHI)",
+                    "MERI LAH",
+                    "H1 KEUR MAMADOU GORY KA",
+                    "NAIDE",
+                    "H1 KEUR BIRAME",
+                    "NDIAYENE",
+                    "NDILIKY",
+                    "NDINDY ABDOU",
+                    "NDIOGOP",
+                    "NGASSAMA",
+                    "GUELODE",
+                    "POFDY WOLOF",
+                    "H1 KEUR SAMBA YOUMBEL BA",
+                    "SAME LAH",
+                    "SOLBOCK",
+                    "SOURANG PEULH",
+                    "H1 DJEMBERE",
+                    "H2 YAMANE ET KOUTHIOUTHIE",
+                    "H3 BOUBRE",
+                    "H4 KEUR MANDIAYE DE NDINDY ABDOU",
+                    "H5 SOURANG NDIAYENE",
+                    "TAW FEKH BOUSSO",
+                    "H1 NAIGUEDE",
+                    "H2 BODE PEULH",
+                    "TAWFEKH",
+                    "THIAWENE",
+                    "THIAWENE NDICKOU",
+                    "H1 DAROU KA",
+                    "THYLLENE",
+                    "THYSSE 1",
+                    "TINDODY",
+                    "H2 KEUR AMADOU NDENE SOW",
+                    "H3 BALLA FALL",
+                    "H4 DIALAL",
+                    "H5 MEDINATOUL ABRARY",
+                    "H6 POLLE",
+                    "TOUBA AL AZAR",
+                    "TOUBA BOBOREL",
+                    "TOUBA FALL DIANATOUL",
+                    "H1 TOUBA FALL KHAR YALLA",
+                    "TOUBA GUEDE",
+                    "TOUBA HLM",
+                    "TOUBA MOSQUEE",
+                    "TOUBA NDIAREME",
+                    "TOUBA YAGNE",
+                    "WOURO DIOFFO",
+                    "THIAWENE SANTHIE ET DAROU SOW",
+                    "TOUBA BELEL",
+                    "H1 THIONGUENE",
+                    "TOUBA TAWFEKH ROUTE DE DAROU"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TAIF",
+              "communes": [
+                {
+                  "name": "SADIO",
+                  "districts": [
+                    "BADJI",
+                    "H1 BOWDO TATY (BADJI SERERE)",
+                    "H2 NGANTOUR (BADJI PEULH )",
+                    "H3 TOUPA",
+                    "BANANE NDIOLOFENE",
+                    "BANANE WAGADOU",
+                    "BOUSRA",
+                    "DIABY 1",
+                    "H1 LOULDE",
+                    "DIABY 2",
+                    "DIABY 3",
+                    "DIABY KEUR SERIGNE BARA (DIABY WOLOF)",
+                    "H1 NGASSAMA",
+                    "H2 KEUR MBAYE BANA ET DIABY KEUR CHEIKH SAMBA THIAM",
+                    "DIOUFENE",
+                    "GAINA KEUR TAMSIR",
+                    "GUERLE PEULH",
+                    "GUERLE WOLOF",
+                    "KAMBEL",
+                    "H1 MBEUP",
+                    "MEDINA BOURLE",
+                    "H1 BIDE",
+                    "NGARAF (KEUR OUMAR GUEYE)",
+                    "NGARAF MBAYENE",
+                    "SADIO ESCALE",
+                    "SADIO MBAYARD (THIODORDE)",
+                    "SADIO NDIAKHAYE",
+                    "SADIO NDOMENE",
+                    "SADIO NDONDOL",
+                    "SADIO PALENE",
+                    "SADIO THIAKHO",
+                    "SADIO TOBENE",
+                    "TALL TALL",
+                    "H1 POUMANENE",
+                    "H2 DAGA TALL TALL"
+                  ]
+                },
+                {
+                  "name": "TAIF",
+                  "districts": [
+                    "BAILA",
+                    "H1 DIAMAGUENE",
+                    "BOMBALY",
+                    "H2 DIOR BANGO",
+                    "H3 DARAYE MOUSTAPHA ABDOU KHADRE MBACKE",
+                    "BOULERI NDIOLOFENE (KEUR BAMARY NDIOLOFENE)",
+                    "BOULERI PEULH",
+                    "H1 NDEGUE",
+                    "DANKY (DAROU ISLAM)",
+                    "H1 NDIARIGNE NDIOFO",
+                    "H2 NARGA",
+                    "DAROU MINAM TAIF (DAROU MINAM MBACKE)",
+                    "H1 DAARA SERIGNE MODOU MBACKE",
+                    "DAROU SALAM NGHAYE (MINAM SARR)",
+                    "DIGUIGNE (MBAYENE)",
+                    "H1 DIGUIGNE PEULH",
+                    "DIGUIGNE SERERE",
+                    "SANDATOU",
+                    "H1 KEUR BOYDO KA",
+                    "TAIF",
+                    "H1 MAKA SARR",
+                    "H3 DAARA KHADIM MBACKE",
+                    "H4 IRADA",
+                    "H5 DAROU BAILA",
+                    "H6 GOUYE NAROU",
+                    "H7 BAWDO TATI (TOUBA TAIF SERERE)",
+                    "H8 GOUDOUGUEL",
+                    "H9 NABA",
+                    "TANE",
+                    "H1 BELELE SENE",
+                    "TOUBA NABA (THISSE)",
+                    "TOUBA NGHAYE (DAROU NDIAYE)",
+                    "H1 PEULGHA",
+                    "H2 DAROU NDIAYE KEUR SERIGNE BATHI",
+                    "WOUGA"
                   ]
                 }
               ]

@@ -76,15 +76,27 @@ app.get("/regions/:name/departments", (req: Request, res: Response) => {
   res.json(region.departments);
 });
 
-// Arrondissements d’un département
+// // Arrondissements d’un département
+// app.get("/departments/:name/arrondissements", (req: Request, res: Response) => {
+//   for (const region of data.regions) {
+//     const dept = region.departments.find(
+//       (d) => d.name.toLowerCase() === req.params.name.toLowerCase(),
+//     );
+//     if (dept) res.json(dept.arrondissements);
+//   }
+//   res.status(404).json({ error: "Department not found" });
+// });
 app.get("/departments/:name/arrondissements", (req: Request, res: Response) => {
-  for (const region of data.regions) {
-    const dept = region.departments.find(
-      (d) => d.name.toLowerCase() === req.params.name.toLowerCase(),
-    );
-    if (dept) res.json(dept.arrondissements);
+  const dept = data.regions
+    .flatMap((r) => r.departments)
+    .find((d) => d.name.toLowerCase() === req.params.name.toLowerCase());
+
+  if (!dept) {
+    res.status(404).json({ error: "Department not found" });
+    return;
   }
-  res.status(404).json({ error: "Department not found" });
+
+  res.json(dept.arrondissements);
 });
 
 // Communes d’un arrondissement
