@@ -65,22 +65,22 @@ export default function Home() {
       {/* FEATURES */}
       <section className="features">
         <div className="feature">
-          <FileText size={28} />
+          <FileText size={28} className="icon" />
           <h3>Documents</h3>
           <p>Toutes les démarches expliquées simplement</p>
         </div>
         <div className="feature">
-          <MapPin size={28} />
+          <MapPin size={28} className="icon" />
           <h3>Localisation</h3>
           <p>Guidé selon votre région</p>
         </div>
-        <div className="feature">
-          <Landmark size={28} />
+        <div className="feature ">
+          <Landmark size={28} className="icon" />
           <h3>Administrations</h3>
           <p>Informations fiables et à jour</p>
         </div>
         <div className="feature">
-          <Users size={28} />
+          <Users size={28} className="icon" />
           <h3>Citoyens</h3>
           <p>Conçu pour tous les sénégalais</p>
         </div>
@@ -96,8 +96,11 @@ export default function Home() {
               to={`/${region.toLowerCase()}/demarches`}
               className="card"
             >
-              <MapPin className="icon" />
-              <h3>{region}</h3>
+              <div>
+                {" "}
+                <MapPin size={24} />
+                <h3>{region}</h3>
+              </div>
               <p>Voir les démarches</p>
             </Link>
           ))}
