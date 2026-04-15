@@ -1,4 +1,4 @@
-.header {
+/* .header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-/* LOGO */
+
 .logo {
   font-weight: bold;
   font-size: 18px;
@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 
-/* NAV */
+
 .nav {
   display: flex;
   gap: 25px;
@@ -48,7 +48,7 @@
   transform: translateY(-1px);
 }
 
-/* ACTIONS */
+
 .actions {
   display: flex;
   gap: 12px;
@@ -75,4 +75,160 @@
 
 .cta:hover {
   transform: scale(1.05);
+} */
+
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(20px);
+  background: rgba(15, 23, 42, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item span {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* MEGA MENU */
+.mega-menu {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 420px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #0f172a;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.nav-item:hover .mega-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* GRID */
+.mega-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* CARDS */
+.mega-card {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  text-decoration: none;
+  color: white;
+  transition: 0.25s;
+}
+
+.mega-card:hover {
+  background: rgba(59, 130, 246, 0.2);
+  transform: translateY(-3px);
+}
+
+.mega-card h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.mega-card p {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+/* SMALL MENU */
+.mega-menu.small {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mega-menu.small a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.mega-menu.small a:hover {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+/* REGIONS */
+.regions {
+  grid-template-columns: 1fr;
+}
+
+.mega-link {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.mega-link:hover {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+/* CTA */
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+
+.cta {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  padding: 8px 14px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }

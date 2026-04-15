@@ -8,7 +8,7 @@ import AdminPage from "./pages/AdminPage";
 import Demarches from "./pages/demarches/Demarches";
 import Home from "./pages/Home";
 import NotFound from "./pages/notfound/NotFound";
-import Header from "./components/header/Herder";
+import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { Divide } from "lucide-react";
 import MainLayout from "./MainLayout";
