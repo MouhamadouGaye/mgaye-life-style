@@ -409,7 +409,11 @@ export default function Cni() {
             <label>Région</label>
             <select
               value={selectedRegion}
-              onChange={(e) => setSelectedRegion(e.target.value)}
+              onChange={(e) =>
+                setSelectedRegion(
+                  region ? region.toUpperCase() : e.target.value,
+                )
+              }
             >
               <option value="">Choisir</option>
               {regions.map((r) => (

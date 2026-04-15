@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 export default function Demarches() {
-  const { slug } = useParams();
+  // const { slug } = useParams();
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const savedRegion = localStorage.getItem("region");
+  // useEffect(() => {
+  //   const savedRegion = localStorage.getItem("region");
 
-    if (savedRegion) {
-      navigate(`/${savedRegion}/demarches/${slug}`);
-    }
-  }, []);
+  //   if (savedRegion) {
+  //     navigate(`/${savedRegion}/demarches/${slug}`);
+  //   }
+  // }, []);
 
   return (
     <div className="center">
