@@ -38,7 +38,7 @@
 //     </header>
 //   );
 // }
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import {
   MapPin,
   FileText,
@@ -109,10 +109,27 @@ export default function Header() {
               <MapPin size={18} /> Régions
             </span>
 
-            <div className="mega-menu">
+            <div className="mega-menu medium">
               <div className="mega-grid regions">
-                {["Dakar", "Thiès", "Saint-Louis", "Ziguinchor"].map((r) => (
-                  <Link key={r} to={`/regions/${r}`} className="mega-link">
+                {[
+                  "Dakar",
+                  "Diourbel",
+                  "Fatick",
+                  "kolda",
+                  "Louga",
+                  "Tambacounda",
+                  "Matam",
+                  "Thiès",
+                  "Saint-Louis",
+                  "Ziguinchor",
+                  "Kaffrine",
+                  "Kédougou",
+                ].map((r) => (
+                  <Link
+                    key={r}
+                    to={`/${r.toLowerCase()}/demarches`}
+                    className="mega-link"
+                  >
                     {r}
                   </Link>
                 ))}
