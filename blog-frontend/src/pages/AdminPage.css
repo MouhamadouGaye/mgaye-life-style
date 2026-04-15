@@ -8,17 +8,17 @@
 }
 
 /* HEADER */
-.header {
+.header-admin {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.header h1 {
+.header-admin h1 {
   font-size: 32px;
   font-weight: 700;
 }
 
-.header p {
+.header-admin p {
   color: #94a3b8;
   margin-top: 8px;
 }

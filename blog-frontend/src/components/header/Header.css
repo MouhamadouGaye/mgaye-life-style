@@ -134,6 +134,7 @@
   transform: translateY(10px);
   pointer-events: none;
   transition: 0.3s;
+  z-index: 12;
 }
 
 .nav-item:hover .mega-menu {

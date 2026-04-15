@@ -74,10 +74,9 @@ export default function AdminPage() {
   const navigate = useNavigate();
   return (
     <div className="page">
-      <div className="header">
+      <div className="header-admin">
         <h1>📄 Démarches administratives</h1>
         <p>Choisissez une démarche pour commencer</p>
-        <p></p>
       </div>
 
       <div className="grid">
