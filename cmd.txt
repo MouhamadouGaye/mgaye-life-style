@@ -47,3 +47,4 @@ google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk
 
 google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk
 google-site-verification=CH0FjpzeSpVCcQbppYbrzAISzeRX7zxUQoIDifjjthk
+http://blog-frontend-site.storage.googleapis.com/index.html

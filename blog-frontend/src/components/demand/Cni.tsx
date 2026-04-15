@@ -191,6 +191,8 @@
 // }
 import { useEffect, useState } from "react";
 import "./Cni.css";
+import { Navigate, useParams } from "react-router-dom";
+import { demarches } from "../../pages/AdminPage";
 
 type Districts = string[];
 
@@ -227,6 +229,7 @@ export default function Cni() {
   const [selectedDistrict, setSelectedDistrict] = useState("");
 
   const [loading, setLoading] = useState(false);
+  const { region, expleDemandeDeCni } = useParams();
 
   // 🔹 helper fetch propre
   const fetchData = async (url: string, setter: Function) => {
@@ -307,83 +310,172 @@ export default function Cni() {
     fetchData(`${API_URL}/communes/${selectedCommune}/districts`, setDistricts);
   }, [selectedCommune]);
 
+  // return (
+  //   <div className="container">
+  //     <div className="card">
+  //       <h1>🪪 Demande de Carte d’Identité</h1>
+  //       <p className="subtitle">
+  //         {loading ? "Chargement..." : "Remplissez votre localisation"}
+  //       </p>
+
+  //       {/* REGION */}
+  //       <select
+  //         value={selectedRegion}
+  //         onChange={(e) => setSelectedRegion(e.target.value)}
+  //       >
+  //         <option value="">Région</option>
+  //         {regions.map((r) => (
+  //           <option key={r.name}>{r.name}</option>
+  //         ))}
+  //       </select>
+
+  //       {/* DEPARTMENT */}
+  //       <select
+  //         value={selectedDept}
+  //         disabled={!selectedRegion}
+  //         onChange={(e) => setSelectedDept(e.target.value)}
+  //       >
+  //         <option value="">Département</option>
+  //         {departments.map((d) => (
+  //           <option key={d.name}>{d.name}</option>
+  //         ))}
+  //       </select>
+
+  //       {/* ARRONDISSEMENT */}
+  //       <select
+  //         value={selectedArr}
+  //         disabled={!selectedDept}
+  //         onChange={(e) => setSelectedArr(e.target.value)}
+  //       >
+  //         <option value="">Arrondissement</option>
+  //         {arrondissements.map((a) => (
+  //           <option key={a.name}>{a.name}</option>
+  //         ))}
+  //       </select>
+
+  //       {/* COMMUNE */}
+  //       <select
+  //         value={selectedCommune}
+  //         disabled={!selectedArr}
+  //         onChange={(e) => setSelectedCommune(e.target.value)}
+  //       >
+  //         <option value="">Commune</option>
+  //         {communes.map((c) => (
+  //           <option key={c.name}>{c.name}</option>
+  //         ))}
+  //       </select>
+
+  //       {/* DISTRICT */}
+  //       <select
+  //         value={selectedDistrict}
+  //         disabled={!selectedCommune}
+  //         onChange={(e) => setSelectedDistrict(e.target.value)}
+  //       >
+  //         <option value="">Quartier</option>
+  //         {districts.map((d) => (
+  //           <option key={d}>{d}</option>
+  //         ))}
+  //       </select>
+
+  //       <button
+  //         disabled={!selectedDistrict}
+  //         onClick={() => {
+  //           alert(
+  //             `${selectedRegion} > ${selectedDept} > ${selectedArr} > ${selectedCommune} > ${selectedDistrict}`,
+  //           );
+  //         }}
+  //       >
+  //         Valider
+  //       </button>
+  //     </div>
+  //   </div>
+  // );
   return (
     <div className="container">
-      <div className="card">
-        <h1>🪪 Demande de Carte d’Identité</h1>
+      <div className="card-pour-cni">
+        <h1>
+          🪪 Demande de{" "}
+          {`${demarches.find((d) => d.url === expleDemandeDeCni)?.title || expleDemandeDeCni}`}
+        </h1>
+        <h4>
+          à {`${region && region.charAt(0).toUpperCase() + region.slice(1)}`}
+        </h4>
         <p className="subtitle">
           {loading ? "Chargement..." : "Remplissez votre localisation"}
         </p>
 
-        {/* REGION */}
-        <select
-          value={selectedRegion}
-          onChange={(e) => setSelectedRegion(e.target.value)}
-        >
-          <option value="">Région</option>
-          {regions.map((r) => (
-            <option key={r.name}>{r.name}</option>
-          ))}
-        </select>
+        <div className="grid">
+          <div className="field">
+            <label>Région</label>
+            <select
+              value={selectedRegion}
+              onChange={(e) => setSelectedRegion(e.target.value)}
+            >
+              <option value="">Choisir</option>
+              {regions.map((r) => (
+                <option key={r.name}>{r.name}</option>
+              ))}
+            </select>
+          </div>
 
-        {/* DEPARTMENT */}
-        <select
-          value={selectedDept}
-          disabled={!selectedRegion}
-          onChange={(e) => setSelectedDept(e.target.value)}
-        >
-          <option value="">Département</option>
-          {departments.map((d) => (
-            <option key={d.name}>{d.name}</option>
-          ))}
-        </select>
+          <div className="field">
+            <label>Département</label>
+            <select
+              value={selectedDept}
+              disabled={!selectedRegion}
+              onChange={(e) => setSelectedDept(e.target.value)}
+            >
+              <option value="">Choisir</option>
+              {departments.map((d) => (
+                <option key={d.name}>{d.name}</option>
+              ))}
+            </select>
+          </div>
 
-        {/* ARRONDISSEMENT */}
-        <select
-          value={selectedArr}
-          disabled={!selectedDept}
-          onChange={(e) => setSelectedArr(e.target.value)}
-        >
-          <option value="">Arrondissement</option>
-          {arrondissements.map((a) => (
-            <option key={a.name}>{a.name}</option>
-          ))}
-        </select>
+          <div className="field">
+            <label>Arrondissement</label>
+            <select
+              value={selectedArr}
+              disabled={!selectedDept}
+              onChange={(e) => setSelectedArr(e.target.value)}
+            >
+              <option value="">Choisir</option>
+              {arrondissements.map((a) => (
+                <option key={a.name}>{a.name}</option>
+              ))}
+            </select>
+          </div>
 
-        {/* COMMUNE */}
-        <select
-          value={selectedCommune}
-          disabled={!selectedArr}
-          onChange={(e) => setSelectedCommune(e.target.value)}
-        >
-          <option value="">Commune</option>
-          {communes.map((c) => (
-            <option key={c.name}>{c.name}</option>
-          ))}
-        </select>
+          <div className="field">
+            <label>Commune</label>
+            <select
+              value={selectedCommune}
+              disabled={!selectedArr}
+              onChange={(e) => setSelectedCommune(e.target.value)}
+            >
+              <option value="">Choisir</option>
+              {communes.map((c) => (
+                <option key={c.name}>{c.name}</option>
+              ))}
+            </select>
+          </div>
 
-        {/* DISTRICT */}
-        <select
-          value={selectedDistrict}
-          disabled={!selectedCommune}
-          onChange={(e) => setSelectedDistrict(e.target.value)}
-        >
-          <option value="">Quartier</option>
-          {districts.map((d) => (
-            <option key={d}>{d}</option>
-          ))}
-        </select>
+          <div className="field full">
+            <label>Quartier</label>
+            <select
+              value={selectedDistrict}
+              disabled={!selectedCommune}
+              onChange={(e) => setSelectedDistrict(e.target.value)}
+            >
+              <option value="">Choisir</option>
+              {districts.map((d) => (
+                <option key={d}>{d}</option>
+              ))}
+            </select>
+          </div>
+        </div>
 
-        <button
-          disabled={!selectedDistrict}
-          onClick={() => {
-            alert(
-              `${selectedRegion} > ${selectedDept} > ${selectedArr} > ${selectedCommune} > ${selectedDistrict}`,
-            );
-          }}
-        >
-          Valider
-        </button>
+        <button disabled={!selectedDistrict}>Valider</button>
       </div>
     </div>
   );

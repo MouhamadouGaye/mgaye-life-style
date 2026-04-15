@@ -1,0 +1,135 @@
+/* GLOBAL */
+.page {
+  min-height: 100vh;
+  padding: 40px;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header p {
+  color: #94a3b8;
+  margin-top: 8px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 250px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* GLOW EFFECT */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(59, 130, 246, 0.2),
+    transparent
+  );
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* ICON */
+.icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* TITRE */
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* DESCRIPTION */
+.card p {
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+/* BUTTON */
+.card button {
+  margin-top: auto;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* BUTTON HOVER */
+.card button:hover {
+  background: #3b82f6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .page {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+}

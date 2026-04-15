@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+./scraping/nested_data.json
+../scraping/nested_data.json
+
 ### STS ###
 .apt_generated
 .classpath

@@ -1,309 +1,309 @@
-{
-  "country": "Senegal",
-  "regions": [
+// {
+//   "country": "Senegal",
+//   "regions": [
 
-{
+// {
  
-  "name": "Dakar",
-  "code": "01",
-  "departments": [
-    {
-      "name": "Dakar",
-      "code": "011",
-      "arrondissements": [
-        {
-          "name": "Almadies",
-          "code": "01101",
-          "communes": [
-            {
-              "name": "Yoff",
-              "type": "commune_arrondissement",
-              "districts": [
-                "Yoff Village",
-                "Yoff Tonghor",
-                "Diamalaye",
-                "Ndénatte",
-                "Layène",
-                "Apecsy",
-                "Virage",
-                "Route de l’aéroport"
-              ]
-            },
-            {
-              "name": "Ouakam",
-              "districts": [
-                "Ouakam Centre",
-                "Mamelles",
-                "Cité Avion",
-                "Comico",
-                "Zone militaire",
-                "Phare des Mamelles"
-              ]
-            },
-            {
-              "name": "Ngor",
-              "districts": [
-                "Ngor Village",
-                "Almadies",
-                "Plage de Ngor",
-                "Zone résidentielle",
-                "Pointe des Almadies"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Parcelles Assainies",
-          "communes": [
-            {
-              "name": "Parcelles Assainies",
-              "districts": [
-                "Unité 1","Unité 2","Unité 3","Unité 4","Unité 5","Unité 6",
-                "Unité 7","Unité 8","Unité 9","Unité 10","Unité 11","Unité 12",
-                "Unité 13","Unité 14","Unité 15","Unité 16","Unité 17","Unité 18",
-                "Unité 19","Unité 20","Unité 21","Unité 22","Unité 23","Unité 24",
-                "Unité 25","Unité 26"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Pikine",
-      "code": "013",
-      "arrondissements": [
-        {
-          "name": "Dagoudane",
-          "communes": [
-            {
-              "name": "Pikine Ouest",
-              "districts": [
-                "Tally Bou Bess",
-                "Guinaw Rails Sud",
-                "Guinaw Rails Nord",
-                "Darou Salam",
-                "Djiddah Thiaroye Kao"
-              ]
-            },
-            {
-              "name": "Pikine Est",
-              "districts": [
-                "Dalifort",
-                "Keur Massar Ancien",
-                "Djeddah",
-                "Thiaroye"
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]},
+//   "name": "Dakar",
+//   "code": "01",
+//   "departments": [
+//     {
+//       "name": "Dakar",
+//       "code": "011",
+//       "arrondissements": [
+//         {
+//           "name": "Almadies",
+//           "code": "01101",
+//           "communes": [
+//             {
+//               "name": "Yoff",
+//               "type": "commune_arrondissement",
+//               "districts": [
+//                 "Yoff Village",
+//                 "Yoff Tonghor",
+//                 "Diamalaye",
+//                 "Ndénatte",
+//                 "Layène",
+//                 "Apecsy",
+//                 "Virage",
+//                 "Route de l’aéroport"
+//               ]
+//             },
+//             {
+//               "name": "Ouakam",
+//               "districts": [
+//                 "Ouakam Centre",
+//                 "Mamelles",
+//                 "Cité Avion",
+//                 "Comico",
+//                 "Zone militaire",
+//                 "Phare des Mamelles"
+//               ]
+//             },
+//             {
+//               "name": "Ngor",
+//               "districts": [
+//                 "Ngor Village",
+//                 "Almadies",
+//                 "Plage de Ngor",
+//                 "Zone résidentielle",
+//                 "Pointe des Almadies"
+//               ]
+//             }
+//           ]
+//         },
+//         {
+//           "name": "Parcelles Assainies",
+//           "communes": [
+//             {
+//               "name": "Parcelles Assainies",
+//               "districts": [
+//                 "Unité 1","Unité 2","Unité 3","Unité 4","Unité 5","Unité 6",
+//                 "Unité 7","Unité 8","Unité 9","Unité 10","Unité 11","Unité 12",
+//                 "Unité 13","Unité 14","Unité 15","Unité 16","Unité 17","Unité 18",
+//                 "Unité 19","Unité 20","Unité 21","Unité 22","Unité 23","Unité 24",
+//                 "Unité 25","Unité 26"
+//               ]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Pikine",
+//       "code": "013",
+//       "arrondissements": [
+//         {
+//           "name": "Dagoudane",
+//           "communes": [
+//             {
+//               "name": "Pikine Ouest",
+//               "districts": [
+//                 "Tally Bou Bess",
+//                 "Guinaw Rails Sud",
+//                 "Guinaw Rails Nord",
+//                 "Darou Salam",
+//                 "Djiddah Thiaroye Kao"
+//               ]
+//             },
+//             {
+//               "name": "Pikine Est",
+//               "districts": [
+//                 "Dalifort",
+//                 "Keur Massar Ancien",
+//                 "Djeddah",
+//                 "Thiaroye"
+//               ]
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]},
 
-    {
-      "name": "Thiès",
-      "departments": [
-        {
-          "name": "Mbour",
-          "arrondissements": [
-            {
-              "name": "Ngaparou",
-              "communes": ["Ngaparou", "Somone", "Saly Portudal"]
-            },
-            {
-              "name": "Fissel",
-              "communes": ["Fissel", "Sessene"]
-            }
-          ]
-        },
-        {
-          "name": "Thiès",
-          "arrondissements": [
-            {
-              "name": "Notto",
-              "communes": ["Notto Gouye Diama", "Taiba Ndiaye"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Saint-Louis",
-      "departments": [
-        {
-          "name": "Saint-Louis",
-          "arrondissements": [
-            {
-              "name": "Rao",
-              "communes": ["Rao", "Gandon"]
-            }
-          ]
-        },
-        {
-          "name": "Dagana",
-          "arrondissements": [
-            {
-              "name": "Ndiaye",
-              "communes": ["Ndiaye", "Ross Bethio"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kaolack",
-      "departments": [
-        {
-          "name": "Kaolack",
-          "arrondissements": [
-            {
-              "name": "Ndiédieng",
-              "communes": ["Ndiédieng", "Dya"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Ziguinchor",
-      "departments": [
-        {
-          "name": "Ziguinchor",
-          "arrondissements": [
-            {
-              "name": "Niaguis",
-              "communes": ["Niaguis", "Adéane"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Tambacounda",
-      "departments": [
-        {
-          "name": "Tambacounda",
-          "arrondissements": [
-            {
-              "name": "Missirah",
-              "communes": ["Missirah", "Dialacoto"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kolda",
-      "departments": [
-        {
-          "name": "Kolda",
-          "arrondissements": [
-            {
-              "name": "Dabo",
-              "communes": ["Dabo", "Bagadadji"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Matam",
-      "departments": [
-        {
-          "name": "Matam",
-          "arrondissements": [
-            {
-              "name": "Ogo",
-              "communes": ["Ogo", "Nabadji Civol"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kaffrine",
-      "departments": [
-        {
-          "name": "Kaffrine",
-          "arrondissements": [
-            {
-              "name": "Gniby",
-              "communes": ["Gniby", "Diamagadio"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kedougou",
-      "departments": [
-        {
-          "name": "Kedougou",
-          "arrondissements": [
-            {
-              "name": "Bandafassi",
-              "communes": ["Bandafassi", "Tomboronkoto"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Fatick",
-      "departments": [
-        {
-          "name": "Fatick",
-          "arrondissements": [
-            {
-              "name": "Fimela",
-              "communes": ["Fimela", "Palmarin"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Louga",
-      "departments": [
-        {
-          "name": "Louga",
-          "arrondissements": [
-            {
-              "name": "Sakal",
-              "communes": ["Sakal", "Nguidilé"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Sedhiou",
-      "departments": [
-        {
-          "name": "Sedhiou",
-          "arrondissements": [
-            {
-              "name": "Diendé",
-              "communes": ["Diendé", "Marsassoum"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Diourbel",
-      "departments": [
-        {
-          "name": "Diourbel",
-          "arrondissements": [
-            {
-              "name": "Ndindy",
-              "communes": ["Ndindy", "Touré Mbonde"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+//     {
+//       "name": "Thiès",
+//       "departments": [
+//         {
+//           "name": "Mbour",
+//           "arrondissements": [
+//             {
+//               "name": "Ngaparou",
+//               "communes": ["Ngaparou", "Somone", "Saly Portudal"]
+//             },
+//             {
+//               "name": "Fissel",
+//               "communes": ["Fissel", "Sessene"]
+//             }
+//           ]
+//         },
+//         {
+//           "name": "Thiès",
+//           "arrondissements": [
+//             {
+//               "name": "Notto",
+//               "communes": ["Notto Gouye Diama", "Taiba Ndiaye"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Saint-Louis",
+//       "departments": [
+//         {
+//           "name": "Saint-Louis",
+//           "arrondissements": [
+//             {
+//               "name": "Rao",
+//               "communes": ["Rao", "Gandon"]
+//             }
+//           ]
+//         },
+//         {
+//           "name": "Dagana",
+//           "arrondissements": [
+//             {
+//               "name": "Ndiaye",
+//               "communes": ["Ndiaye", "Ross Bethio"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Kaolack",
+//       "departments": [
+//         {
+//           "name": "Kaolack",
+//           "arrondissements": [
+//             {
+//               "name": "Ndiédieng",
+//               "communes": ["Ndiédieng", "Dya"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Ziguinchor",
+//       "departments": [
+//         {
+//           "name": "Ziguinchor",
+//           "arrondissements": [
+//             {
+//               "name": "Niaguis",
+//               "communes": ["Niaguis", "Adéane"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Tambacounda",
+//       "departments": [
+//         {
+//           "name": "Tambacounda",
+//           "arrondissements": [
+//             {
+//               "name": "Missirah",
+//               "communes": ["Missirah", "Dialacoto"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Kolda",
+//       "departments": [
+//         {
+//           "name": "Kolda",
+//           "arrondissements": [
+//             {
+//               "name": "Dabo",
+//               "communes": ["Dabo", "Bagadadji"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Matam",
+//       "departments": [
+//         {
+//           "name": "Matam",
+//           "arrondissements": [
+//             {
+//               "name": "Ogo",
+//               "communes": ["Ogo", "Nabadji Civol"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Kaffrine",
+//       "departments": [
+//         {
+//           "name": "Kaffrine",
+//           "arrondissements": [
+//             {
+//               "name": "Gniby",
+//               "communes": ["Gniby", "Diamagadio"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Kedougou",
+//       "departments": [
+//         {
+//           "name": "Kedougou",
+//           "arrondissements": [
+//             {
+//               "name": "Bandafassi",
+//               "communes": ["Bandafassi", "Tomboronkoto"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Fatick",
+//       "departments": [
+//         {
+//           "name": "Fatick",
+//           "arrondissements": [
+//             {
+//               "name": "Fimela",
+//               "communes": ["Fimela", "Palmarin"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Louga",
+//       "departments": [
+//         {
+//           "name": "Louga",
+//           "arrondissements": [
+//             {
+//               "name": "Sakal",
+//               "communes": ["Sakal", "Nguidilé"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Sedhiou",
+//       "departments": [
+//         {
+//           "name": "Sedhiou",
+//           "arrondissements": [
+//             {
+//               "name": "Diendé",
+//               "communes": ["Diendé", "Marsassoum"]
+//             }
+//           ]
+//         }
+//       ]
+//     },
+//     {
+//       "name": "Diourbel",
+//       "departments": [
+//         {
+//           "name": "Diourbel",
+//           "arrondissements": [
+//             {
+//               "name": "Ndindy",
+//               "communes": ["Ndindy", "Touré Mbonde"]
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// }

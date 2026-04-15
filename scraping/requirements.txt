@@ -1,0 +1,1 @@
+/Users/gaye/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/typeshed-fallback/stubs/requests/requests/__init__.pyi

@@ -9,7 +9,12 @@ lerna-debug.log*
 
 
 src/api/node/senegal-data.json
-src/api/node/./senegal-data.json
+./src/api/node/senegal-data.json
+
+src/api/node/senegal-data0.txt
+./src/api/node/senegal-data0.txt
+
+
 
 node_modules
 dist

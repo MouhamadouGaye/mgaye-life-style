@@ -351,12 +351,14 @@ for region in regions:
             "page": page
         }
 
+
         res = requests.get(BASE_URL, params=params, verify=False)
         soup = BeautifulSoup(res.text, "html.parser")
 
         table = soup.find("table")
         if not table:
             break
+
 
         rows = table.find_all("tr")[1:]
 
@@ -375,9 +377,10 @@ for region in regions:
                     "district": cols[4],
                     "population": cols[-1]
                 })
-
         page += 1
         time.sleep(0.5)
+
+       
 
 print(f"✅ Total lignes: {len(all_data)}")
 
