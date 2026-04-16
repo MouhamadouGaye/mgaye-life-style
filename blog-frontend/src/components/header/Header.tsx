@@ -50,6 +50,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import "./Header.css";
+import { GradientLine } from "../line/GradientLine";
 
 export default function Header() {
   return (
@@ -165,6 +166,7 @@ export default function Header() {
           </Link>
         </div>
       </div>
+      <GradientLine />
     </header>
   );
 }

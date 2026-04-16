@@ -10,6 +10,7 @@ import {
   HeartPulse,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import Hero from "../components/hero/Hero";
 
 type Demarche = {
   title: string;
@@ -73,29 +74,33 @@ export const demarches: Demarche[] = [
 export default function AdminPage() {
   const navigate = useNavigate();
   return (
-    <div className="page">
-      <div className="header-admin">
-        <h1>📄 Démarches administratives</h1>
-        <p>Choisissez une démarche pour commencer</p>
-      </div>
+    <div>
+      <Hero />
 
-      <div className="grid">
-        {demarches.map((d, index) => {
-          const Icon = d.icon;
+      <div className="page">
+        <div className="header-admin">
+          <h1>📄 Démarches administratives</h1>
+          <p>Choisissez une démarche pour commencer</p>
+        </div>
 
-          return (
-            <div className="card" key={index} onClick={() => navigate(d.url)}>
-              <div className="icon">
-                <Icon size={28} />
+        <div className="grid">
+          {demarches.map((d, index) => {
+            const Icon = d.icon;
+
+            return (
+              <div className="card" key={index} onClick={() => navigate(d.url)}>
+                <div className="icon">
+                  <Icon size={28} />
+                </div>
+
+                <h2>{d.title}</h2>
+                <p>{d.description}</p>
+
+                <button>Commencer</button>
               </div>
-
-              <h2>{d.title}</h2>
-              <p>{d.description}</p>
-
-              <button>Commencer</button>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );

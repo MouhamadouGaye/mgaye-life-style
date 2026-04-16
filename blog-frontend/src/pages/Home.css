@@ -55,18 +55,20 @@ select {
   font-family: system-ui, sans-serif;
 }
 
-.hero {
+.hero-home {
+  flex-direction: column;
   text-align: center;
   padding: 80px 20px 40px;
 }
 
-.hero h1 {
+.hero-home h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
+  line-height: 40px;
 }
 
-.hero p {
-  max-width: 600px;
+.hero-home p {
+  max-width: 500px;
   margin: auto;
   opacity: 0.8;
 }

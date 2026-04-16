@@ -1,0 +1,280 @@
+.hero {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 90px;
+  background:
+    radial-gradient(
+      circle at 20% 10%,
+      rgba(56, 189, 248, 0.15),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(99, 102, 241, 0.15),
+      transparent 45%
+    ),
+    radial-gradient(circle at bottom, #0b1220, #020617);
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+/* subtle animated noise layer */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* LEFT PANEL */
+.hero-left {
+  max-width: 560px;
+  z-index: 2;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #cbd5e1;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: 54px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.hero h1 span {
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  margin-top: 18px;
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 90%;
+}
+
+/* BUTTONS */
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.primary,
+.secondary {
+  padding: 13px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+/* primary glass + glow */
+.primary {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.35);
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 50px rgba(37, 99, 235, 0.45);
+}
+
+/* secondary glass */
+.secondary {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 28px;
+  margin-top: 38px;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats strong {
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+.stats span {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+/* RIGHT VISUAL */
+.hero-right {
+  position: relative;
+  z-index: 2;
+}
+
+/* floating device */
+.phone-mock {
+  width: 340px;
+  height: 560px;
+
+  border-radius: 38px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(25px);
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+/* screen */
+.screen {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, #0f172a, #020617);
+}
+
+.phone-mock {
+  animation: screen-glow 1.5s infinite;
+}
+
+/* floating glow inside device */
+.phone-mock::after {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.2), transparent 60%);
+  filter: blur(30px);
+}
+
+/* bubbles */
+.bubble {
+  position: absolute;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: float 6s infinite ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+/* improved positioning (more natural composition) */
+.b1 {
+  top: -15px;
+  left: -40px;
+}
+.b2 {
+  top: 70px;
+  right: -60px;
+}
+.b3 {
+  top: 200px;
+  left: -70px;
+}
+.b4 {
+  bottom: 160px;
+  right: -70px;
+}
+.b5 {
+  bottom: -10px;
+  left: 60px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-14px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .stats {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.hero-image {
+  width: 420px;
+  max-width: 100%;
+  animation: floatHero 6s ease-in-out infinite;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.5));
+  transition: transform 0.4s ease;
+}
+
+/* petit effet au hover */
+.hero-image:hover {
+  transform: scale(1.03) rotate(1deg);
+}
+
+/* animation flottante premium */
+@keyframes floatHero {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -29,7 +29,7 @@ function App() {
           <Route path="/posts/:id" element={<PostPage />}></Route>
 
           <Route path="/" element={<Home />}></Route>
-          {/* <Route path="/:slug" element={<Demarches />} /> */}
+          <Route path="/:slug" element={<Demarches />} />
 
           <Route path="/:region/demarches" element={<AdminPage />} />
 

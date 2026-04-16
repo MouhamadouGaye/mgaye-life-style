@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className="home">
       {/* HERO */}
-      <section className="hero">
+      <section className="hero-home">
         <h1>🇸🇳 Démarches Administratives Simplifiées</h1>
         <p>
           Accédez rapidement à toutes les procédures pour obtenir vos documents
