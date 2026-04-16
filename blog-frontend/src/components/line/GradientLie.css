@@ -1,7 +1,7 @@
 /* GradientLine.css */
 .gradient-line {
   width: 100%;
-  height: 1.5px;
+  height: 0.2px;
   background: linear-gradient(
     to right,
     #228b22 0%,

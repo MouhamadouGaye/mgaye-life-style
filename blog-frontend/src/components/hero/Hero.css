@@ -278,3 +278,14 @@
     transform: translateY(0px);
   }
 }
+
+.card-icon {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  padding: 40px;
+}
+
+.card-icon:hover svg {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 12px rgba(34, 197, 94, 0.6));
+}

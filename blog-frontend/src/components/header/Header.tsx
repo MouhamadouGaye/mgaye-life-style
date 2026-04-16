@@ -48,17 +48,56 @@ import {
   FileBadge,
   BookOpen,
   ShieldCheck,
+  MenuIcon,
 } from "lucide-react";
 import "./Header.css";
 import { GradientLine } from "../line/GradientLine";
+import { useState } from "react";
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState<Boolean>(false);
+
+  // useEffect(() => {
+  //   const handleClickOutside = (event: MouseEvent) => {
+  //     const target = event.target as HTMLElement;
+  //     if (!target.closest(".nav-item")) {
+  //       setMenuOpen(false);
+  //     }
+  //   };
+
+  //   document.addEventListener("click", handleClickOutside);
+  //   return () => {
+  //     document.removeEventListener("click", handleClickOutside);
+  //   };
+  // }, []);
+
   return (
     <header className="header">
       <div className="header-inner">
         <Link to="/" className="logo">
           🇸🇳 Demarches.sn
         </Link>
+
+        <div
+          className="humbergerMenu"
+          style={{
+            width: 30,
+            height: 30,
+            backgroundColor: "white",
+            top: 75,
+            borderRadius: 5,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <MenuIcon
+            color="green"
+            // className="mobile-menu-icon"
+            style={{ fontSize: 20 }}
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
+        </div>
 
         <nav className="nav">
           {/* DEMARCHES */}
@@ -155,6 +194,104 @@ export default function Header() {
             <Search size={18} /> Suivi
           </Link>
         </nav>
+
+        {menuOpen && (
+          <nav className="nav-for-mobile">
+            {/* DEMARCHES */}
+            <div className="nav-item">
+              <span>
+                <FileText size={18} /> Démarches
+              </span>
+
+              <div className="mega-menu">
+                <div className="mega-grid">
+                  <Link to="/demarches/cni" className="mega-card">
+                    <CreditCard />
+                    <div>
+                      <h4>Carte d’identité</h4>
+                      <p>Faire ou renouveler votre CNI</p>
+                    </div>
+                  </Link>
+
+                  <Link to="/demarches/passeport" className="mega-card">
+                    <FileBadge />
+                    <div>
+                      <h4>Passeport</h4>
+                      <p>Voyagez en toute sécurité</p>
+                    </div>
+                  </Link>
+
+                  <Link to="/demarches/casier" className="mega-card">
+                    <ShieldCheck />
+                    <div>
+                      <h4>Casier judiciaire</h4>
+                      <p>Demande en ligne rapide</p>
+                    </div>
+                  </Link>
+
+                  <Link to="/demarches/naissance" className="mega-card">
+                    <FileText />
+                    <div>
+                      <h4>Extrait de naissance</h4>
+                      <p>Document officiel essentiel</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* REGIONS */}
+            <div className="nav-item">
+              <span>
+                <MapPin size={18} /> Régions
+              </span>
+
+              <div className="mega-menu medium">
+                <div className="mega-grid regions">
+                  {[
+                    "Dakar",
+                    "Diourbel",
+                    "Fatick",
+                    "kolda",
+                    "Louga",
+                    "Tambacounda",
+                    "Matam",
+                    "Thiès",
+                    "Saint-Louis",
+                    "Ziguinchor",
+                    "Kaffrine",
+                    "Kédougou",
+                  ].map((r) => (
+                    <Link
+                      key={r}
+                      to={`/${r.toLowerCase()}/demarches`}
+                      className="mega-link"
+                    >
+                      {r}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* GUIDES */}
+            <div className="nav-item">
+              <span>
+                <BookOpen size={18} /> Guides
+              </span>
+
+              <div className="mega-menu small">
+                <Link to="/guides/cni">Comment faire une CNI</Link>
+                <Link to="/guides/documents">Documents requis</Link>
+                <Link to="/guides/conseils">Conseils pratiques</Link>
+              </div>
+            </div>
+
+            <Link to="/suivi" className="simple-link">
+              <Search size={18} /> Suivi
+            </Link>
+          </nav>
+        )}
 
         <div className="actions">
           <Link to="/compte" className="login">

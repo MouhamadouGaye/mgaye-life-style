@@ -25,6 +25,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* this is only for icons ------------------------------------ */
+  /* --icon-primary: #0f172a; */
+  /* dark */
+  --icon-primary: white; /* dark */
+  --icon-accent: #22c55e; /* green */
+  /* Ending of the icons' styles ------------------------------------ */
+
+  .card-icon:hover {
+    --icon-accent: #3b82f6;
+  }
+
   @media (max-width: 1024px) {
     font-size: 16px;
   }
@@ -48,6 +59,10 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+}
+
+.card:hover {
+  --icon-accent: #3b82f6;
 }
 
 #root {

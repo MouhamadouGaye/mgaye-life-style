@@ -243,3 +243,70 @@
   text-decoration: none;
   font-weight: bold;
 }
+.humbergerMenu {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-for-mobile {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: #0f172a;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  /* .nav-item .mega-menu {
+    display: none;
+  } */
+
+  .humbergerMenu {
+    display: block;
+  }
+  .nav-for-mobile {
+    left: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .naw-for-mobile a {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: left;
+
+    right: 20px;
+    background: #0f172a;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .mega-menu {
+    position: absolute;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+    background: #0f172a;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  .mega-menu {
+    border: 0.5px solid rgba(255, 255, 255, 0.214);
+  }
+  .mega-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

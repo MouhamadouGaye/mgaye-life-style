@@ -1,3 +1,5 @@
+import { LocalisationIcon } from "../icon/LocalisationIcon";
+import { UserCheckIcon } from "../icon/UserCheckIcon";
 import { GradientLine } from "../line/GradientLine";
 import "./Hero.css";
 import { FileText, MapPin, Search } from "lucide-react";
@@ -60,16 +62,24 @@ export default function Hero() {
       {/* LEFT CONTENT */}
       <div className="hero-left">
         <span className="badge">🇸🇳 Plateforme officielle simplifiée</span>
-
         <h1>
           Toutes vos <span>démarches administratives</span> en un seul endroit
         </h1>
-
         <p>
           Trouvez, comprenez et complétez vos démarches administratives sans
           vous déplacer inutilement.
         </p>
-
+        <div style={{ display: "flex", gap: "12px", margin: "20px 0" }}>
+          <div className="card-icon">
+            <UserCheckIcon />
+          </div>{" "}
+          <div className="card-icon">
+            <LocalisationIcon />
+          </div>
+          <div className="card-icon">
+            <UserCheckIcon />
+          </div>
+        </div>
         <div className="hero-actions">
           <button className="primary">
             <MapPin size={18} /> Choisir ma région
@@ -79,7 +89,6 @@ export default function Hero() {
             <Search size={18} /> Suivre un dossier
           </button>
         </div>
-
         <div className="stats">
           <div>
             <strong>15</strong>

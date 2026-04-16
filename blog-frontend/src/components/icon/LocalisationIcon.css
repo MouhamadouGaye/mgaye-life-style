@@ -1,0 +1,12 @@
+.icon {
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: translateY(-4px) scale(1.08);
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.2));
+}
+
+.card:hover {
+  --icon-accent: #3b82f6;
+}
