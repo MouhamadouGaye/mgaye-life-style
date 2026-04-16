@@ -86,14 +86,14 @@ export default function Header() {
             backgroundColor: "white",
             top: 75,
             borderRadius: 5,
-            display: "flex",
+
             alignItems: "center",
             justifyContent: "center",
           }}
         >
           <MenuIcon
             color="green"
-            // className="mobile-menu-icon"
+            className="mobile-menu-icon"
             style={{ fontSize: 20 }}
             onClick={() => setMenuOpen(!menuOpen)}
           />
