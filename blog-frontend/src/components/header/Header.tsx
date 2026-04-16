@@ -78,27 +78,6 @@ export default function Header() {
           🇸🇳 Demarches.sn
         </Link>
 
-        <div
-          className="humbergerMenu"
-          style={{
-            width: 30,
-            height: 30,
-            backgroundColor: "white",
-            top: 75,
-            borderRadius: 5,
-
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <MenuIcon
-            color="green"
-            className="mobile-menu-icon"
-            style={{ fontSize: 20 }}
-            onClick={() => setMenuOpen(!menuOpen)}
-          />
-        </div>
-
         <nav className="nav">
           {/* DEMARCHES */}
           <div className="nav-item">
@@ -301,6 +280,26 @@ export default function Header() {
           <Link to="/commencer" className="cta">
             Commencer
           </Link>
+        </div>
+        <div
+          className="humbergerMenu"
+          style={{
+            width: 30,
+            height: 25,
+            backgroundColor: "white",
+            top: 75,
+            borderRadius: 5,
+
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <MenuIcon
+            color="green"
+            className="mobile-menu-icon"
+            style={{ fontSize: 20 }}
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
         </div>
       </div>
       <GradientLine />
