@@ -1,0 +1,180 @@
+/* UserForm.css */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap");
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 40px 36px;
+  background: #111318;
+  border: 0.5px solid #1e2330;
+  border-radius: 12px;
+  font-family: "Syne", sans-serif;
+  animation: form-in 0.4s ease both;
+}
+
+@keyframes form-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-form h2 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #f1f5f9;
+}
+
+.user-form h2::before {
+  content: "IDENTIFICATION";
+  display: block;
+  font-family: "DM Mono", monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  color: #3b82f6;
+  margin-bottom: 6px;
+}
+
+/* ─── Form group ─────────────────────────────────────── */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #64748b;
+  font-family: "DM Mono", monospace;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 11px 14px;
+  background: #0d1017;
+  border: 0.5px solid #1e2330;
+  border-radius: 6px;
+  color: #f1f5f9;
+  font-family: "DM Mono", monospace;
+  font-size: 0.9rem;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder {
+  color: #374151;
+}
+
+.form-group input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+.form-group input:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.form-group input.error {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+/* ─── Error message ──────────────────────────────────── */
+
+.error-message {
+  font-family: "DM Mono", monospace;
+  font-size: 0.7rem;
+  color: #ef4444;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.error-message::before {
+  content: "!";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.15);
+  border: 0.5px solid #ef4444;
+  font-size: 9px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ─── Submit button ──────────────────────────────────── */
+
+.submit-button {
+  margin-top: 8px;
+  padding: 13px 24px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.35);
+  transition:
+    opacity 0.2s,
+    transform 0.15s,
+    box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.submit-button::after {
+  content: "→";
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.submit-button:hover:not(:disabled) {
+  opacity: 0.9;
+  box-shadow: 0 6px 24px rgba(59, 130, 246, 0.5);
+}
+
+.submit-button:hover:not(:disabled)::after {
+  transform: translateX(3px);
+}
+
+.submit-button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.submit-button:disabled::after {
+  content: "";
+}

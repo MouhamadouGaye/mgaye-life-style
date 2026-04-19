@@ -1,5 +1,7 @@
 const API_URL = import.meta.env.VITE_API_URL;
 
+// ─── Posts ────────────────────────────────────────────────
+
 export const getPosts = async () => {
   const res = await fetch(`${API_URL}/posts`);
   return res.json();
@@ -66,6 +68,50 @@ export const patchPost = async (id: number, updates: any) => {
     },
     body: JSON.stringify(updates),
   });
+
+  return res.json();
+};
+
+// ─── Photos ───────────────────────────────────────────────
+
+interface PhotoMetadata {
+  brightness: number;
+  symmetryScore: number;
+  faceSize: number;
+  timestamp: string;
+}
+
+interface UploadPhotoParams {
+  imageData: string;
+  email: string;
+  nationalId: string;
+  metadata: PhotoMetadata;
+}
+
+interface UploadPhotoResult {
+  photo: {
+    id: string;
+    email: string;
+    nationalId: string;
+    createdAt: string;
+  };
+}
+
+export const uploadPhoto = async (
+  params: UploadPhotoParams,
+): Promise<UploadPhotoResult> => {
+  const res = await fetch(`${API_URL}/api/photos/upload`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(params),
+  });
+
+  if (!res.ok) {
+    const error = await res.json().catch(() => ({}));
+    throw new Error(error.error || `Erreur serveur (${res.status})`);
+  }
 
   return res.json();
 };

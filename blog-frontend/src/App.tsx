@@ -12,6 +12,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { Divide } from "lucide-react";
 import MainLayout from "./MainLayout";
+import CamApp from "./CamApp";
 
 function App() {
   const [shown, setShown] = useState<boolean>(false);
@@ -29,6 +30,8 @@ function App() {
           <Route path="/posts/:id" element={<PostPage />}></Route>
 
           <Route path="/" element={<Home />}></Route>
+          <Route path="/photo" element={<CamApp />}></Route>
+
           <Route path="/:slug" element={<Demarches />} />
 
           <Route path="/:region/demarches" element={<AdminPage />} />

@@ -1,0 +1,110 @@
+/* FaceGuide.css */
+
+:root {
+  --guide-color-good: #22c55e;
+  --guide-color-warn: #f59e0b;
+  --guide-color-bad: #ef4444;
+  --guide-text: #e5e7eb;
+  --guide-muted: #9ca3af;
+}
+
+.face-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+}
+
+/* SVG oval guide */
+.face-guide__svg {
+  width: 180px;
+  height: 180px;
+  filter: drop-shadow(0 0 6px currentColor);
+  transition: filter 0.3s ease;
+}
+
+.face-guide__oval {
+  transition: stroke 0.4s ease, stroke-dasharray 0.4s ease;
+}
+
+.face-guide__oval--good {
+  animation: pulse-good 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-good {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.65; }
+}
+
+.face-guide__check {
+  stroke-dasharray: 25;
+  stroke-dashoffset: 25;
+  animation: draw-check 0.4s ease forwards;
+}
+
+@keyframes draw-check {
+  to { stroke-dashoffset: 0; }
+}
+
+/* Status row */
+.face-guide__status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  font-family: 'DM Mono', 'Fira Code', monospace;
+}
+
+.face-guide__status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.face-guide__status-dot--good {
+  background: var(--guide-color-good);
+  box-shadow: 0 0 6px var(--guide-color-good);
+  animation: blink 1.2s ease-in-out infinite;
+}
+
+.face-guide__status-dot--warn {
+  background: var(--guide-color-warn);
+  box-shadow: 0 0 6px var(--guide-color-warn);
+}
+
+.face-guide__status-dot--bad {
+  background: var(--guide-color-bad);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* Indicators row */
+.face-guide__indicators {
+  display: flex;
+  gap: 10px;
+}
+
+.face-guide__indicator {
+  font-size: 0.68rem;
+  font-family: 'DM Mono', 'Fira Code', monospace;
+  color: var(--guide-muted);
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  padding: 2px 7px;
+  transition: color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  letter-spacing: 0.04em;
+}
+
+.face-guide__indicator--ok {
+  color: var(--guide-color-good);
+  box-shadow: 0 0 4px var(--guide-color-good);
+}

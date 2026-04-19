@@ -1,0 +1,128 @@
+/* CaptureButton.css */
+
+:root {
+  --btn-ready: #22c55e;
+  --btn-idle: #6b7280;
+  --btn-disabled: #374151;
+  --btn-text: #f9fafb;
+  --btn-text-muted: #9ca3af;
+}
+
+.capture-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+  transition: transform 0.15s ease;
+}
+
+.capture-button:not(.capture-button--disabled):active {
+  transform: scale(0.94);
+}
+
+/* Outer ring */
+.capture-button__ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: 2.5px solid var(--btn-idle);
+  transition: border-color 0.35s ease, box-shadow 0.35s ease;
+  pointer-events: none;
+}
+
+.capture-button--ready .capture-button__ring {
+  border-color: var(--btn-ready);
+  box-shadow: 0 0 12px var(--btn-ready), 0 0 24px color-mix(in srgb, var(--btn-ready) 30%, transparent);
+  animation: ring-spin 3s linear infinite;
+}
+
+@keyframes ring-spin {
+  from { transform: translate(-50%, -62%) rotate(0deg); }
+  to   { transform: translate(-50%, -62%) rotate(360deg); }
+}
+
+/* Inner shutter circle */
+.capture-button__inner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--btn-disabled);
+  border: 2px solid var(--btn-idle);
+  transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  overflow: hidden;
+}
+
+.capture-button--ready .capture-button__inner {
+  background: color-mix(in srgb, var(--btn-ready) 18%, #111827);
+  border-color: var(--btn-ready);
+  box-shadow: inset 0 0 16px color-mix(in srgb, var(--btn-ready) 20%, transparent);
+}
+
+.capture-button--disabled .capture-button__inner {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Pulse animation for ready state */
+.capture-button__pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--btn-ready);
+  opacity: 0;
+  animation: pulse-expand 1.8s ease-out infinite;
+}
+
+@keyframes pulse-expand {
+  0%   { opacity: 0.35; transform: scale(0.4); }
+  100% { opacity: 0;    transform: scale(1.6); }
+}
+
+/* Camera icon */
+.capture-button__icon {
+  width: 24px;
+  height: 24px;
+  color: var(--btn-text-muted);
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.capture-button--ready .capture-button__icon {
+  color: var(--btn-ready);
+}
+
+/* Label */
+.capture-button__label {
+  font-size: 0.72rem;
+  font-family: 'DM Mono', 'Fira Code', monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--btn-text-muted);
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.capture-button--ready .capture-button__label {
+  color: var(--btn-ready);
+}
+
+/* Focus visible ring for accessibility */
+.capture-button:focus-visible .capture-button__inner {
+  outline: 2px solid #60a5fa;
+  outline-offset: 4px;
+}

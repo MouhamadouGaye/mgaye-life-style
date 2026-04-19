@@ -1,0 +1,158 @@
+/* QualityIndicator.css */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Mono:wght@400;500&display=swap");
+
+.quality-indicator {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Syne", sans-serif;
+}
+
+/* ─── Score circle ───────────────────────────────────── */
+
+.overall-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.score-circle {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    var(--color) calc(var(--score) * 1%),
+    #1e2330 calc(var(--score) * 1%)
+  );
+  transition: background 0.5s ease;
+}
+
+.score-circle::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border-radius: 50%;
+  background: #111318;
+}
+
+.score-circle span {
+  position: relative;
+  z-index: 1;
+  font-family: "DM Mono", monospace;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color);
+  transition: color 0.4s ease;
+}
+
+.score-label {
+  font-family: "DM Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+/* ─── Indicators list ────────────────────────────────── */
+
+.indicators-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.indicator-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 0.5px solid #1e2330;
+  background: #0d1017;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease;
+}
+
+.indicator-item.ok {
+  border-color: rgba(34, 197, 94, 0.25);
+  background: rgba(34, 197, 94, 0.05);
+}
+
+.indicator-icon {
+  font-size: 13px;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.indicator-label {
+  flex: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #94a3b8;
+  letter-spacing: 0.01em;
+}
+
+.indicator-item.ok .indicator-label {
+  color: #cbd5e1;
+}
+
+.indicator-status {
+  font-family: "DM Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.indicator-status.check {
+  color: #22c55e;
+}
+
+.indicator-status.cross {
+  color: #475569;
+}
+
+/* ─── Brightness warning ─────────────────────────────── */
+
+.brightness-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 0.5px solid rgba(245, 158, 11, 0.3);
+  animation: warn-in 0.3s ease both;
+}
+
+@keyframes warn-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.warning-icon {
+  font-size: 13px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.brightness-warning span:last-child {
+  font-family: "DM Mono", monospace;
+  font-size: 0.68rem;
+  color: #f59e0b;
+  line-height: 1.5;
+}
