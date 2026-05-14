@@ -176,7 +176,9 @@ export async function userRoutes(server: FastifyInstance) {
       const { email, nationalId } = request.body;
 
       if (!email && !nationalId) {
-        return reply.status(400).send({ error: "Aucune donnée à mettre à jour" });
+        return reply
+          .status(400)
+          .send({ error: "Aucune donnée à mettre à jour" });
       }
 
       if (email) {
@@ -188,7 +190,7 @@ export async function userRoutes(server: FastifyInstance) {
 
       try {
         const fields: string[] = [];
-        const params: (string)[] = [];
+        const params: string[] = [];
 
         if (email) {
           params.push(email);

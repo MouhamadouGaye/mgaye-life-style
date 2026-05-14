@@ -13,6 +13,10 @@ import Footer from "./components/footer/Footer";
 import { Divide } from "lucide-react";
 import MainLayout from "./MainLayout";
 import CamApp from "./CamApp";
+import CanvasExample from "./test/Test";
+import CanvasAnimation from "./test/CanvasAnimation";
+import ParticleNetwork from "./test/ParticleNetwork";
+import DroneText from "./test/DroneText";
 
 function App() {
   const [shown, setShown] = useState<boolean>(false);
@@ -28,6 +32,13 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/index.html" element={<PostList />}></Route>
           <Route path="/posts/:id" element={<PostPage />}></Route>
+          <Route path="/test" element={<CanvasExample />}></Route>
+          <Route path="/particle" element={<ParticleNetwork />}></Route>
+          <Route path="/drone" element={<DroneText />}></Route>
+
+          <Route path="animation" element={<CanvasAnimation />}>
+            {" "}
+          </Route>
 
           <Route path="/" element={<Home />}></Route>
           <Route path="/photo" element={<CamApp />}></Route>
